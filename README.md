@@ -1,5 +1,5 @@
 ## Python Lessons:
 
 ### This week's homework:
-- In the homework folder, go to the 'feb13' folder
-- Inside is the homework labled `homework.py`
+- Complete `homework.py` inside of the `homework` folder
+- To be updated about homework please "star" this repository, in the top right
