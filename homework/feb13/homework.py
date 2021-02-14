@@ -21,16 +21,15 @@ printing, calculations, and variables
 # 3: Below, write a line of code that will print your name
 
 # 4: Below, write some code that will print this:
-"""						   ^  ^
-						   ____
 
-"""
+^  ^
+____
 
-# 5: Below, write some code that will print this:    ___
-"""						    |[_]|
-						    |+ ;|
-						    `---'
-"""
+# 5: Below, write some code that will print this:
+ ___
+|[_]|
+|+ ;|
+`---'
 
 # 6: In python what type of symbol is '*'?
 
