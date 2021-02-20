@@ -35,7 +35,6 @@ ____
 # 6: In python what type of symbol is '*'?
 
 # 7: What is the output of the following code? (in other words, what the code will print)
-
 print(6 + 6 * 2 + 3)
 
 # 8: What is the output of the following code?
