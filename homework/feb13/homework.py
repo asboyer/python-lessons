@@ -53,7 +53,7 @@ print(y)
 found_coins = 5
 magic_coins = 3
 stolen_coins = 5
-print((found_coins + stolen_coins) * stolen_coins)
+print((found_coins + stolen_coins) * magic_coins)
 
 # 12: What is the output of the following code?
 x = 1
