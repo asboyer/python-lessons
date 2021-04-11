@@ -1,3 +1,5 @@
+from sys import argv
+
 def find(string1, char):
     for i in range(len(string1)):
         if string1[i] == char:
@@ -21,18 +23,21 @@ def decryption(key, string, alphabet):
 def head(string):
     for c in string:
         print("-", end="")
-    print("-------")
-
+    print("--------------")
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-string = input('Please enter a string: ').lower().strip()
 
-print(" ")
+string = ''
+for i in range(1, len(argv)):    
+    string += argv[i] + " "
+string = string.lower().strip()
+
+print("\nAll possible Caesar messages:")
 
 head(string)
 
 for i in range(1, len(alphabet)):
-    print(str(i), end=": ")
-    print(decryption(i, string, alphabet))
+    print(f'Key: ({str(i)})', end=": \"")
+    print(decryption(i, string, alphabet), end="\" \n")
 
 head(string)
