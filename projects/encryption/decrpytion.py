@@ -18,18 +18,21 @@ def decryption(key, string, alphabet):
         finalString += decrypt(key, character, alphabet)
     return finalString
 
+def head(string):
+    for c in string:
+        print("-", end="")
+    print("-------")
+
+
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 string = input('Please enter a string: ').lower().strip()
 
-print()
-for c in string:
-    print("-", end="")
-print("-------")
+print(" ")
+
+head(string)
 
 for i in range(1, len(alphabet)):
     print(str(i), end=": ")
     print(decryption(i, string, alphabet))
 
-for c in string:
-    print("-", end="")
-print("-------")
+head(string)
