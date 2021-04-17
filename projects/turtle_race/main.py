@@ -1,10 +1,12 @@
 from turtle import *
 
-speed(10)
+# main setup
+speed(0)
 penup()
 goto(-140, 140)
 
-for step in range(6):
+# track setup
+for step in range(16):
     write(step, align='center')
     right(90)
     forward(10)
@@ -15,4 +17,10 @@ for step in range(6):
     left(90)
     forward(20)
 
+# add the racing turtles
+eric = Turtle()
+eric.color('red')
+eric.shape('turtle')
+
+# keep the turtle window open
 mainloop()
