@@ -51,5 +51,6 @@ while True:
     except ValueError:
         print("Please enter 1 or 0")
         continue
+    break
 
 print(finalString)
