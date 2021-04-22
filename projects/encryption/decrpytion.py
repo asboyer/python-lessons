@@ -1,43 +1,26 @@
 from sys import argv
 
-def find(string1, char):
-    for i in range(len(string1)):
-        if string1[i] == char:
-            return i
-    return -1
+from main import decryption, alphabet
 
-def decrypt(key, character, alphabet):
-    position = find(alphabet, character)
-    if position == -1:
-        return character
-    oldPosition = (position - key) % len(alphabet)
-    oldCharacter = alphabet[oldPosition]
-    return oldCharacter
 
-def decryption(key, string, alphabet):
-    finalString = ''
-    for character in string:
-        finalString += decrypt(key, character, alphabet)
-    return finalString
-
-def head(string):
+def header(string):
     for c in string:
         print("-", end="")
-    print("--------------")
-
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    print("------------")
 
 string = ''
-for i in range(1, len(argv)):    
+for i in range(1, len(argv)):
     string += argv[i] + " "
 string = string.lower().strip()
 
-print("\nAll possible Caesar messages:")
+print(f"\nAll possible Caesar messages for '{string}':\n")
 
-head(string)
+header(string)
 
-for i in range(1, len(alphabet)):
-    print(f'Key: ({str(i)})', end=": \"")
-    print(decryption(i, string, alphabet), end="\" \n")
+for key in range(1, len(alphabet)):
+    print(f"Key ({str(key)})", end=": \"")
+    print(decryption(key, string, alphabet), end="\" \n")
+    if key != len(alphabet) - 1:
+        print("")
 
-head(string)
+header(string)

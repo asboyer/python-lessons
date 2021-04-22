@@ -1,3 +1,5 @@
+from boyer import get_num
+
 # functions 
 def find(string1, char):
     for i in range(len(string1)):
@@ -33,24 +35,26 @@ def decryption(key, string, alphabet):
         finalString += decrypt(key, character, alphabet)
     return finalString
 
-# variables:
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-string = input('Please enter a string: ').lower().strip()
-key = int(input('Please enter a key: '))
-    
-while True:
-    try:
-        option = int(input("Encrypt(1) or decrypt(0)? "))
-        if option == 1:
-            finalString = encryption(key, string, alphabet)
-        elif option == 0:
-            finalString = decryption(key, string, alphabet)
-        else:
+
+if __name__ == "__main__":
+    # variables:
+    string = input('Please enter a string: ').lower().strip()
+    key = get_num("Please enter a key", integer=True, start=1, finish=25)
+        
+    while True:
+        try:
+            option = int(input("Encrypt(1) or decrypt(0)? "))
+            if option == 1:
+                finalString = encryption(key, string, alphabet)
+            elif option == 0:
+                finalString = decryption(key, string, alphabet)
+            else:
+                print("Please enter 1 or 0")
+                continue
+        except ValueError:
             print("Please enter 1 or 0")
             continue
-    except ValueError:
-        print("Please enter 1 or 0")
-        continue
-    break
+        break
 
-print(finalString)
+    print(finalString)
