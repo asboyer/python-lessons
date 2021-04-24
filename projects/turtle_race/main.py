@@ -1,3 +1,4 @@
+from boyer import delay_print
 from turtle import *
 from random import randint
 
@@ -34,32 +35,43 @@ carson = Turtle()
 carson.color('green')
 carson.shape('turtle')
 
-# elijah
-elijah = Turtle()
-elijah.color('yellow')
-elijah.shape('turtle')
+# andrew
+andrew = Turtle()
+andrew.color('yellow')
+andrew.shape('turtle')
 
 # move turtle to starting line
 eric.penup()
 kevin.penup()
 carson.penup()
-elijah.penup()
+andrew.penup()
 eric.goto(-160, 100)
 kevin.goto(-160, 70)
 carson.goto(-160, 40)
-elijah.goto(-160, 10)
-eric.pendown()
-kevin.pendown()
-carson.pendown()
-elijah.pendown()
+andrew.goto(-160, 10)
 
 # totals
 eric_total = 0
 kevin_total = 0
 carson_total = 0
-elijah_total = 0
+andrew_total = 0
+
+delay_print("""Eric: the red turtle with a hot head
+Kevin: the blue, calm, and collected turtle
+Carson: the green trickster, some call him slimey
+Andrew: the yellow turtle, AKA turtle racings' golden child
+""")
 
 guess = input("Who will win? ")
+
+cheat = 5
+if guess.lower().strip().startswith("ballerboyer"):
+    cheat = 6
+    guess = "andrew"
+
+print("Ready?")
+delay_print("3.... 2... 1..", 20)
+print("GO!")
 
 # race the turtles
 for turn in range(100):
@@ -76,11 +88,13 @@ for turn in range(100):
     carson.forward(carson_step)
     carson_total += carson_step
 
-    elijah_step = randint(1, 5)
-    elijah.forward(elijah_step)
-    elijah_total += elijah_step
+    andrew_step = randint(1, cheat)
+    andrew.forward(andrew_step)
+    andrew_total += andrew_step
+    if andrew_total > 330:
+        andrew.backward(andrew_step)
 
-totals = [eric_total, kevin_total, carson_total, elijah_total]
+totals = [eric_total, kevin_total, carson_total, andrew_total]
 
 max_total = 0
 max_index = 0
@@ -89,11 +103,7 @@ for i in range(len(totals)):
         max_total = totals[i]
         max_index = i
 
-# print(f"Eric (Red): {eric_total}")
-# print(f"Kevin (Blue): {kevin_total}")
-# print(f"Carson (Green): {carson_total}")
-# print(f"Elijah (Yellow): {elijah_total}")
-
+print("WOW!", end=" ")
 if max_index == 0:
     print('Eric Wins!')
     winner = 'eric'
@@ -104,13 +114,20 @@ elif max_index == 2:
     print('Carson wins!')
     winner = 'carson'
 else:
-    print('Elijah wins')
-    winner = 'elijah'
+    print('Andrew wins!')
+    winner = 'andrew'
+
+talk_speed = 5
 
 if guess.lower().strip().startswith(winner):
-    print("YOU GUESSED THE WINNER!")
+    print("\nNO WAY, YOU GUESSED THE WINNER!")
+    print(f"Special message from {winner[0].upper() + winner[1:]}:\n") 
+    delay_print("\"Thanks for believing in me, pal!", talk_speed)
+    delay_print(f"And always remember: I am the best racer there is. Don't get it twisted.", talk_speed)
+    delay_print("I'll see ya around...\"", talk_speed)
 else:
-    print("YOU DID NOT GUESS THE WINNER!")
+    print(f"\nSpecial message from {winner[0].upper() + winner[1:]}:\n")
+    delay_print("\"I just want to give a shout out to all my doubters...especially YOU!", talk_speed)
 
 # keep the turtle window open
-mainloop()
+# mainloop()
