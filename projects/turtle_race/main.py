@@ -59,7 +59,7 @@ kevin_total = 0
 carson_total = 0
 elijah_total = 0
 
-guess = input("Who will win?")
+guess = input("Who will win? ")
 
 # race the turtles
 for turn in range(100):
@@ -89,10 +89,10 @@ for i in range(len(totals)):
         max_total = totals[i]
         max_index = i
 
-print(f"Eric (Red): {eric_total}")
-print(f"Kevin (Blue): {kevin_total}")
-print(f"Carson (Green): {carson_total}")
-print(f"Elijah (Yellow): {elijah_total}")
+# print(f"Eric (Red): {eric_total}")
+# print(f"Kevin (Blue): {kevin_total}")
+# print(f"Carson (Green): {carson_total}")
+# print(f"Elijah (Yellow): {elijah_total}")
 
 if max_index == 0:
     print('Eric Wins!')
