@@ -2,6 +2,12 @@ from boyer import delay_print
 from turtle import *
 from random import randint
 
+intro = """Eric: the red turtle with a hot head
+Kevin: the blue, calm, and collected turtle
+Carson: the green trickster, some call him slimey
+Andrew: the yellow turtle, AKA turtle racings' golden child
+"""
+
 # main setup
 speed(0)
 penup()
@@ -56,11 +62,7 @@ kevin_total = 0
 carson_total = 0
 andrew_total = 0
 
-delay_print("""Eric: the red turtle with a hot head
-Kevin: the blue, calm, and collected turtle
-Carson: the green trickster, some call him slimey
-Andrew: the yellow turtle, AKA turtle racings' golden child
-""")
+delay_print(intro)
 
 guess = input("Who will win? ")
 
