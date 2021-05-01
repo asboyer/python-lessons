@@ -127,7 +127,7 @@ if guess.lower().strip().startswith(winner):
     delay_print("I'll see ya around...\"", talk_speed)
 else:
     print(f"\nSpecial message from {winner[0].upper() + winner[1:]}:\n")
-    delay_print("\"I just want to give a shout out to all my doubters...especially YOU!", talk_speed)
+    delay_print("\"I just want to give a shout out to all my doubters...especially YOU!\"", talk_speed)
 
 # keep the turtle window open
 # mainloop()
