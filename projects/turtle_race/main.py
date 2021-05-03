@@ -2,8 +2,8 @@ from boyer import delay_print
 from turtle import *
 from random import randint
 
-intro = """Eric: the red turtle with a hot head
-Kevin: the blue, calm, and collected turtle
+intro = """Eric: the red turtle with a hot head.
+Kevin: the blue, calm, and collected turtl
 Carson: the green trickster, some call him slimey
 Andrew: the yellow turtle, AKA turtle racings' golden child
 """
