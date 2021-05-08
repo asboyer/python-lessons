@@ -37,6 +37,7 @@ def decryption(key, string, alphabet):
 
 def get_key():
     key = get_num('Please enter a key: ', start=1, finish=25, error_message='Please enter a valid key between 1 and 25!')
+    return key
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
@@ -46,7 +47,7 @@ if __name__ == "__main__":
         try:
             key = int(argv[1])
         except ValueError:
-            key = int(input('Please enter a key: '))
+            key = get_key() # HERE
             min_value = 1
 
         string = ''
@@ -60,10 +61,10 @@ if __name__ == "__main__":
             string = input('Please enter a string: ')
         except ValueError:
             string = argv[1]
-            key = int(input('Please enter a key: '))
+            key = get_key() # HERE
 
     else:
         string = input('Please enter a string: ')
-        key = int(input('Please enter a key: '))
+        key = get_key() # HERE
 
     print(encryption(key, string, alphabet))
