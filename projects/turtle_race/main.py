@@ -1,4 +1,5 @@
-from boyer import delay_print
+from boyer import delay_print, clear
+clear()
 from turtle import *
 from random import randint
 
