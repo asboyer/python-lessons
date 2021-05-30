@@ -58,6 +58,13 @@ kevin.goto(-160, 70)
 carson.goto(-160, 40)
 andrew.goto(-160, 10)
 
+eric_wins = 0
+kevin_wins = 0
+carson_wins = 0
+andrew_wins = 0
+
+total_races = 0
+
 delay_print(intro)
 
 while play:
@@ -123,15 +130,19 @@ while play:
     if max_index == 0:
         print('Eric Wins!')
         winner = 'eric'
+        eric_wins += 1
     elif max_index == 1:
         print('Kevin Wins!')
         winner = 'kevin'
+        kevin_wins += 1
     elif max_index == 2:
         print('Carson wins!')
         winner = 'carson'
+        carson_wins += 1
     else:
         print('Andrew wins!')
         winner = 'andrew'
+        andrew_wins += 1
 
     talk_speed = 5
 
@@ -144,6 +155,15 @@ while play:
     else:
         print(f"\nSpecial message from {winner[0].upper() + winner[1:]}:\n")
         delay_print("\"I just want to give a shout out to all my doubters...especially YOU!\"", talk_speed)
+    
+    total_races += 1 #this line
+
+    print("Total amount of Eric wins: " + str(eric_wins))
+    print("Total amount of Kevin wins: " + str(kevin_wins))
+    print("Total amount of Carson wins: " + str(carson_wins))
+    print("Total amount of Andrew wins: " + str(andrew_wins))
+
+    print("\nTotal amount of races: " + total_races) #this line
 
     while True:
         response = input('Play again? ')
