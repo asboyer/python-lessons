@@ -18,14 +18,12 @@ def aprint(text):
 
 def starter(played):
     if played == 0:
-        # set the scene
-        delay_print(fr('starter'), speed)
+        aprint(fr('starter'))
     else:
         pass
-        # you know the drill, run it back
 
 def fr(name):
-    file = open(f"descriptions/{name}.txt", "r")
+    file = open(f"text/{name}.txt", "r")
     return file.read()
 
 def intro(played):
@@ -36,7 +34,12 @@ def intro(played):
     input("\nPress enter to begin\n")
     clear()
 
+def choose(level, choices):
+    aprint(fr(f'descriptions/description{str(level)}_{choices}'))
+    return get_num(fr(f'choices/choice/{str(level)}_{choices}'), start=0, finish=1, integer=True)
+
 while playing:
+
     # initializing variables
     choice = ""
     choices = ""
@@ -47,7 +50,8 @@ while playing:
 
     intro(played)
 
-    playing = False
+    while alive and not win:
+        choice = choose(level, choices)
 
-    # choice
-
+        # description1_.txt
+    

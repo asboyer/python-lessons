@@ -1,0 +1,1 @@
+Will you swim across the lake to get to the village(1) or explore the cave(0)?
