@@ -1,0 +1,3 @@
+Game written with love, and Python, by Andrew Boyer
+
+Find out more on https://andrewsboyer.com
