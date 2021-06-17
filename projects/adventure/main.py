@@ -78,7 +78,6 @@ while playing:
     while alive and not win:
         choice = choose(level, choices)
         choices += str(choice)
-        speed = 4
         alive = check_alive(level, choices)
         win = check_win(level, choices)
         if alive and not win:
@@ -99,8 +98,10 @@ while playing:
         credits()
 
     else:
-        print(text2art("\ngame over!\n".upper()))
+        print(text2art("\ngame  over!\n".upper()))
 
     if score_break:
         aprint("You set a new high score!")
         initials = input("Please enter your initials: ")
+
+    input("Press enter to continue")

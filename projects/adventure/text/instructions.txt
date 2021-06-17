@@ -1,0 +1,16 @@
+how to name files:
+
+whatlevel_choices
+
+what:
+    - description
+    - death
+    - win
+    - bonus
+
+level:
+    - level number
+
+choices:
+    - ex: 0
+    - ex: 0010
