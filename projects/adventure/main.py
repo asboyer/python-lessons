@@ -1,6 +1,7 @@
 from boyer import *
 from art import text2art
 from os import path
+from random import randint
 
 # maintenance variables
 speed = 0
@@ -60,6 +61,22 @@ def check_win(level, choice):
 def credits():
     aprint(fr('credits'))
 
+def play_again():
+    while True:
+        choice = input("Play again? ")
+        if choice.startswith('y'):
+            return True
+        elif choice.startswith('n'):
+            return False
+        elif choice.startswith('maybe'):
+            num = randint(0, 1)
+            if num == 0:
+                return True
+            else:
+                return False
+        else:
+            print("Please enter a yes or no!")
+
 
 while playing:
 
@@ -83,6 +100,8 @@ while playing:
         if alive and not win:
             score += 2 * level
             level += 1
+        if win:
+            score += 1000 * level
         if score > highscore and not score_break:
             highscore = score
             print("new high score!".upper())
@@ -94,14 +113,15 @@ while playing:
 
     if win:
         print(text2art("\nyou win!\n".upper()))
-        score += 1000 * level
         credits()
 
     else:
         print(text2art("\ngame  over!\n".upper()))
 
     if score_break:
-        aprint("You set a new high score!")
-        initials = input("Please enter your initials: ")
+        initials = input("\n\nPlease enter your initials: ")
 
     input("Press enter to continue")
+
+    if not play_again():
+        break
