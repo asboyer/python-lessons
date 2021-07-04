@@ -23,7 +23,7 @@ while True:
             print("Please enter a valid input!")
             continue
     break
-    
+
     if player_choice == 'r':
         player_choice = 'rock'
 
@@ -32,6 +32,15 @@ while True:
 
     elif player_choice == 's':
         player_choice == 'scissors'
-        
+
     elif player_choice == 'scissor':
         player = 'scissors'
+
+    # computer choice
+
+    computer_choice = randint(1, 3)
+
+    if computer_choice == 1:
+        computer_choice = 'rock'
+    # 2 = 'paper'
+    # 3 = 'scissors'
