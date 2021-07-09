@@ -58,6 +58,29 @@ def check_win(level, choice):
     else:
         return False
 
+def check_bonus(level):
+    bonus_file = f"bonus/bonus_{str(level)}"
+
+    file_path = f'text/{bonus_file}.txt'
+
+    if path.exists(file_path):
+        clear()
+        aprint("bonus question!\n".upper())
+
+        file = open(file_path, "r")
+        lines = file.readlines()
+        answer = input(lines[0].strip() + " ").lower().strip()
+        answers = lines[1].strip().lower().split(" ")
+
+        if answer in answers or answer == lines[1].strip().lower():
+            aprint(f'Correct! You recieve {lines[2]} points!')
+            clear()
+            return int(lines[2])
+        else:
+            aprint(f'Incorrect! You missed out on some bonus points!')
+            clear()
+            return 0
+
 def credits():
     aprint(fr('credits'))
 
