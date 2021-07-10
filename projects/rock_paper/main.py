@@ -15,14 +15,13 @@ choices = ['rock', 'paper', 'scissors', 'scissor', 'r', 'p', 's']
 # getting valid input
 while True:
     while True:
-        player_choice = input("Rock, paper, or scissors?").lower()
+        player_choice = input("Rock, paper, or scissors? ").lower()
 
         if player_choice in choices:
             break
         else:
             print("Please enter a valid input!")
             continue
-    break
 
     if player_choice == 'r':
         player_choice = 'rock'
@@ -31,16 +30,44 @@ while True:
         player_choice = 'paper'
 
     elif player_choice == 's':
-        player_choice == 'scissors'
+        player_choice = 'scissors'
 
     elif player_choice == 'scissor':
         player = 'scissors'
-
-    # computer choice
 
     computer_choice = randint(1, 3)
 
     if computer_choice == 1:
         computer_choice = 'rock'
-    # 2 = 'paper'
-    # 3 = 'scissors'
+    if computer_choice == 2:
+        computer_choice = 'paper'
+    if computer_choice == 3:
+        computer_choice = 'scissors'
+
+    print("\n" + name + " choice: " + player_choice)
+    print("Computer choice: " + computer_choice + "\n")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
