@@ -12,7 +12,7 @@ PINK = (255,192,203)
 pygame.init() # start pygame
 
 # create a display screen: 400 x 400 pixels
-screen = pygame.display.set_mode((400, 400))
+screen = pygame.display.set_mode((1000, 500))
 pygame.display.set_caption('PyGame Intro')
 
 done = False # we're not done displaying
@@ -33,4 +33,4 @@ while not done:
 
         pygame.display.update()
 
-pygame.quit()
+pygame.quit()k
