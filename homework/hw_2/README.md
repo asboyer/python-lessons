@@ -15,10 +15,10 @@
 > Explain the difference between these two loops:
 ```python
 for i in range(100):
-	print('loop')
+    print('loop')
 
 while True:
-	print('loop')
+    print('loop')
 ```
 
 ### Question 2: *elif if if if*
@@ -26,11 +26,11 @@ while True:
 ```python
 var = 1
 if False and var == 1:
-	print('Here!')
+    print('Here!')
 elif False or var == 1:
-	print('No, here!')
+    print('No, here!')
 elif var == 1:
-	print('HERE!')
+    print('HERE!')
 else:
     print('here?')
 ```
@@ -74,20 +74,20 @@ print(my_list[3])
 my_list = ['foo', 'bar', 'foobar', 'barfoo', 'foofoo', 'barbar']
 your_list = []
 for i in range(len(my_list)):
-	if i % 2 == 0:
-		your_list.append(my_list[i])
+    if i % 2 == 0:
+        your_list.append(my_list[i])
 ```
 
-### Question 7: *my	list, your list, our list*
+### Question 7: *my list, your list, our list*
 > What are the values inside `our_list` after this program is complete?
 ```python
 my_list = ['foo', 'bar', 'foobar', 'barfoo', 'foofoo', 'barbar']
 your_list = ['bar', 'barfoo', 'foofoo', 'barfoo', 'foo', 'barbar']
 our_list = []
 for i in range(len(my_list)):
-	for j in range(len(your_list)):
-		if my_list[i] == your_list[j] and i == j:
-			our_list.append(my_list[j])
+    for j in range(len(your_list)):
+        if my_list[i] == your_list[j] and i == j:
+            our_list.append(my_list[j])
 ```
 
 ### Question 8: *concept check!*
@@ -115,5 +115,5 @@ print("The random number is won!")
 import random
 
 if random.randint(1, 3) == 2.5:
-	print("you win a burger!")
+    print("you win a burger!")
 ```
