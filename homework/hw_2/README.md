@@ -11,6 +11,8 @@
 * indexing
 * importing libraries
 
+## QUESTIONS
+
 ### Question 1: *which loop?*
 > Explain the difference between these two loops:
 ```python
