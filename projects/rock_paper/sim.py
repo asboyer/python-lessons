@@ -26,11 +26,11 @@ for i in range(amount_of_simulations):
             scissors += 1
 
     # fraction = amount of rocks/amount of times played
-    print("______________________________")
-    print("In a sample of 10 rounds:")
-    print("Amount of rock: " + str(rock)) # should be 1/3 
-    print("Amount of paper: " + str(paper)) # should be 1/3
-    print("Amount of scissors: " + str(scissors) + "\n") # should be 1/3
+    # print("______________________________")
+    # print("In a sample of 10 rounds:")
+    # print("Amount of rock: " + str(rock)) # should be 1/3 
+    # print("Amount of paper: " + str(paper)) # should be 1/3
+    # print("Amount of scissors: " + str(scissors) + "\n") # should be 1/3
 
     list_of_outcomes = [rock, paper, scissors]
 
@@ -39,5 +39,6 @@ for i in range(amount_of_simulations):
             if outcome == number:
                 number_of_outcomes[number] += 1
 
+print(f'In {str(amount_of_simulations)} rounds of 10:')
 for number in range(len(number_of_outcomes)):
     print(f'Amount of {str(number)}\'s: {str(number_of_outcomes[number])}') #TODO: print the probability of this outcome occruing
