@@ -1,2 +1,2 @@
 # This weeks homework:
-- Inside `mar6`
+- Inside `hw_2`
