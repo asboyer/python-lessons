@@ -4,7 +4,7 @@ from os import path
 from random import randint
 
 # maintenance variables
-speed = 0
+speed = 2
 
 # read a file of highscores
 # if no highscores, make new file
@@ -49,6 +49,18 @@ def check_alive(level, choice):
     else:
         return True
 
+def check_bonus(level):
+    bonus_file = f'bonus/bonus_{str(level)}'
+
+    if path.exists(f'text/{bonus_file}.txt'):
+        clear()
+        aprint('bonus question!\n'.upper())
+
+        file = open(f'text/{bonus_file}.txt', 'r')
+        lines = file.readlines()
+        print(lines)
+
+
 def check_win(level, choice):
     win_file = f"wins/win{str(level)}_{str(choice)}"
 
@@ -58,28 +70,28 @@ def check_win(level, choice):
     else:
         return False
 
-def check_bonus(level):
-    bonus_file = f"bonus/bonus_{str(level)}"
+# def check_bonus(level):
+#     bonus_file = f"bonus/bonus_{str(level)}"
 
-    file_path = f'text/{bonus_file}.txt'
+#     file_path = f'text/{bonus_file}.txt'
 
-    if path.exists(file_path):
-        clear()
-        aprint("bonus question!\n".upper())
+#     if path.exists(file_path):
+#         clear()
+#         aprint("bonus question!\n".upper())
 
-        file = open(file_path, "r")
-        lines = file.readlines()
-        answer = input(lines[0].strip() + " ").lower().strip()
-        answers = lines[1].strip().lower().split(" ")
+#         file = open(file_path, "r")
+#         lines = file.readlines()
+#         answer = input(lines[0].strip() + " ").lower().strip()
+#         answers = lines[1].strip().lower().split(" ")
 
-        if answer in answers or answer == lines[1].strip().lower():
-            aprint(f'Correct! You recieve {lines[2]} points!')
-            clear()
-            return int(lines[2])
-        else:
-            aprint(f'Incorrect! You missed out on some bonus points!')
-            clear()
-            return 0
+#         if answer in answers or answer == lines[1].strip().lower():
+#             aprint(f'Correct! You recieve {lines[2]} points!')
+#             clear()
+#             return int(lines[2])
+#         else:
+#             aprint(f'Incorrect! You missed out on some bonus points!')
+#             clear()
+#             return 0
 
 def credits():
     aprint(fr('credits'))
@@ -116,6 +128,7 @@ while playing:
     intro(played)
 
     while alive and not win:
+        check_bonus(level)
         choice = choose(level, choices)
         choices += str(choice)
         alive = check_alive(level, choices)
