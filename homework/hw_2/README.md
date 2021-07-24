@@ -108,7 +108,7 @@ from random imprt randint:
 number = randint(1, 3)
 
 if number == '1':
-print("The random number is won!")
+print("The random number are one!")
 ```
 
 ### Question 10: *de-burger*
