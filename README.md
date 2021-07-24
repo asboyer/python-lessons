@@ -5,7 +5,7 @@
 
 ## Tip of the moment:
 #### Scapegoating characters
-> using '\' in front of a character will ignore it
+> using `\` in front of a character will ignore it
 ```python
 print('Andrew\'s World')
 ```
