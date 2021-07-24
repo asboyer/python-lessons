@@ -24,3 +24,7 @@ i = 0
 while i < len(my_list):
     print(my_list[i])
 
+# double for loop:
+for i in range(100):
+    for j in range(100):
+        print('loop')
