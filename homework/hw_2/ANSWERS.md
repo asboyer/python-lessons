@@ -15,3 +15,9 @@ No, here!
 for i in range(11):
     print(i)
 ```
+
+### Question 4:
+```python
+for i in range(6):
+    
+```
