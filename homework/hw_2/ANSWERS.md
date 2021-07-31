@@ -18,6 +18,8 @@ for i in range(11):
 
 ### Question 4:
 ```python
-for i in range(6):
-    
+for i range(1, 6):
+	for j in range(i, i + 1):
+		print(j, end="")
+	print()
 ```
