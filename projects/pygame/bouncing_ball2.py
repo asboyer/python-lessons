@@ -1,22 +1,19 @@
 import pygame, random
-
 # defining constants
 
-def randcolor():
-    return (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
 
 x = 200
 y = 200
 
-ball_color = randcolor()
-background_color = randcolor()
-
+ball_color = WHITE
+background_color = WHITE
 
 xv = 10
 yv = 10
 
 done = False
-
 
 screen_width = 400
 ball_width = 50
@@ -26,7 +23,6 @@ pygame.init()
 screen = pygame.display.set_mode((screen_width, screen_width))
 pygame.display.set_caption('Bouncing Ball')
 clock = pygame.time.Clock()
-
 
 while not done:
     for event in pygame.event.get():
