@@ -13,6 +13,9 @@ background_color = WHITE
 xv = 10
 yv = 10
 
+xv2 = 10
+yv2 = 5
+
 done = False
 
 screen_width = 400
