@@ -13,6 +13,7 @@ background_color = WHITE
 xv = 10
 yv = 10
 
+# HERE
 xv2 = 10
 yv2 = 5
 
