@@ -45,6 +45,14 @@ while not done:
     if y >= screen_width - ball_width or x <= 0:
         yv = -yv
 
+    # HERE
+    if x2 >= screen_width - ball_width or x2 <= 0:
+        xv2 = -xv2
+
+    if y2 >= screen_width - ball_width or y2 <= 0:
+        yv2 = -yv2
+
+
     pygame.draw.ellipse(screen, ball_color, [x, y, ball_width, ball_width], 0)
 
     x += xv
