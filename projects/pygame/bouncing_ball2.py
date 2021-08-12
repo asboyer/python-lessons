@@ -1,5 +1,6 @@
 import pygame, random
-# defining constants
+
+class Ball:
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
@@ -12,7 +13,7 @@ x2 = 300
 y2 = 300
 
 ball_color = WHITE
-background_color = WHITE
+background_color = BLACK
 
 xv = 10
 yv = 10
