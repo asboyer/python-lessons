@@ -2,6 +2,9 @@ import pygame, random
 
 class Ball:
     def __init__(self):
+        self.radius = 10
+        self.color = WHITE
+        self.xcor = random
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
