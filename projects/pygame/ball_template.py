@@ -1,4 +1,24 @@
 import pygame
+from random import randint
+
+class Ball:
+    def __init__(self):
+        self.radius = 10
+        self.color = WHITE
+        self.x = randint(0, screen_width)
+        self.y = randint(0, screen_width)
+        self.xv = randint(-max_v, max_v)
+        self.yv = randint(-max_v, max_v)
+
+    def move(self):
+        if self.x >= screen_width - self.radius or self.x <= 0:
+            self.xv = -self.xv
+
+        if self.y >= screen_width - self.radius or self.y <= 0:
+            self.yv = -self.yv
+
+        pygame.draw.ellipse(screen, self.color, [self.x, self.y, self.radius, self.radius], 0)
+
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
@@ -11,6 +31,8 @@ background_color = BLACK
 
 xv = 10
 yv = 10
+
+max_v = 5
 
 done = False
 
@@ -33,7 +55,7 @@ while not done:
     if x >= screen_width - ball_width or x <= 0:
         xv = -xv
 
-    if y >= screen_width - ball_width or x <= 0:
+    if y >= screen_width - ball_width or y <= 0:
         yv = -yv
 
     pygame.draw.ellipse(screen, ball_color, [x, y, ball_width, ball_width], 0)

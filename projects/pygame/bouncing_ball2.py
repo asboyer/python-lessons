@@ -1,13 +1,13 @@
 import pygame, random
 
-class Ball:
-    def __init__(self):
-        self.radius = ball_width
-        self.color = WHITE
-        self.xcor = random.randint(0, screen_width)
-        self.ycor = random.randint(0, screen_width)
-        self.xvel = randint(-max_v, max_v)
-        self.yvel = randint(-max_v, max_v)
+# class Ball:
+#     def __init__(self):
+#         self.radius = ball_width
+#         self.color = WHITE
+#         self.xcor = random.randint(0, screen_width)
+#         self.ycor = random.randint(0, screen_width)
+#         self.xvel = randint(-max_v, max_v)
+#         self.yvel = randint(-max_v, max_v)
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
