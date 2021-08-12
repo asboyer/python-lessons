@@ -2,15 +2,20 @@ import pygame, random
 
 class Ball:
     def __init__(self):
-        self.radius = 10
+        self.radius = ball_color
         self.color = WHITE
-        self.xcor = random
+        self.xcor = random.randint(0, screen_width)
+        self.ycor = random.randint(0, screen_width)
+        self.xvel = randint(-max_v, max_v)
+        
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
 x = 200
 y = 200
+
+max_v = 5
 
 # HERE
 x2 = 300
