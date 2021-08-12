@@ -2,7 +2,7 @@ import pygame, random
 
 class Ball:
     def __init__(self):
-        self.radius = ball_color
+        self.radius = ball_width
         self.color = WHITE
         self.xcor = random.randint(0, screen_width)
         self.ycor = random.randint(0, screen_width)
