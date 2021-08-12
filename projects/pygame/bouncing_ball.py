@@ -23,14 +23,14 @@ randomness = 10
 # xv = random.randint(-randomness, randomness)
 # yv = random.randint(-randomness, randomness)
 
-xv = 5
-yv = 10
+xv = 50
+yv = 100
 
 base_xv = xv
 base_yv = yv
 
-screen_width = 600
-ball_width = 20
+screen_width = 1000
+ball_width = 200
 
 pygame.init()
 

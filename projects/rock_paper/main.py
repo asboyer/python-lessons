@@ -10,6 +10,7 @@ if name == '' or name == ' ':
 # constant variables
 computer_score = 0
 player_score = 0
+quit = False
 
 # TODO: implement streak
 
@@ -17,27 +18,35 @@ choices = ['rock', 'paper', 'scissors', 'scissor', 'r', 'p', 's']
 
 commands = ['clear', 'quit', 'score']
 
+def score():
+    print(name + ": " + str(player_score))
+    print("Computer: " + str(computer_score))
+    print()
+
 # getting valid input
-while True:
+while True and not quit:
     while True:
         player_choice = input("Rock, paper, or scissors? ").lower()
 
         if player_choice in choices:
             break
+
         elif player_choice in commands:
             
             # TODO: write these functions
             if player_choice == 'clear':
-                clear()
+                boyer.clear()
             if player_choice == 'quit':
-                quit()
+                quit = True
+                break
             if player_choice == 'score':
                 score()
-
-            continue
         else:
             print("Please enter a valid input!")
             continue
+
+    if quit:
+        continue
 
     if player_choice == 'r':
         player_choice = 'rock'
@@ -111,7 +120,7 @@ while True:
 
 
 
-
+score()
 
 
 
