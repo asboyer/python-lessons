@@ -7,6 +7,10 @@ BLACK = (0, 0, 0)
 x = 200
 y = 200
 
+# HERE
+x2 = 300
+y2 = 300
+
 ball_color = WHITE
 background_color = WHITE
 
