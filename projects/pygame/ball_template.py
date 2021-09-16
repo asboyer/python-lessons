@@ -34,7 +34,7 @@ RED = (255, 0, 0)
 
 background_color = BLACK
 
-screen_width = 700
+screen_width = 2000
 ball_width = 20
 ball_amount = 300
 
