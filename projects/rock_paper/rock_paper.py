@@ -84,7 +84,7 @@ while playing:
         print("Computer wins!")
         computer_score += 1
 
-    print('\nRounds played: ' + str(rounds))
+    print('\nRounds played |' + str(rounds) + '|')
     print('-------------------')
     print(name + '\'s score: ' + str(player_score))
     print('Computer score: ' + str(computer_score))

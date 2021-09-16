@@ -3,3 +3,4 @@
 notes
 demo.py
 *.swp
+.DS_Store
