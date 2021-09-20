@@ -19,15 +19,15 @@ class Ball:
 			self.q = 2
 			self.color = (255, 255, 255)
 
-		if self.x < screen_width/2 and self.y > screen_width/2:
+		elif self.x < screen_width/2 and self.y > screen_width/2:
 			self.q = 3
 			self.color =  (0, 255, 0)
 
-		if self.x > screen_width/2 and self.y > screen_width/2:
+		elif self.x > screen_width/2 and self.y > screen_width/2:
 			self.q = 4
 			self.color = (0, 0, 255)
 
-		if self.x > screen_width/2 and self.y < screen_width/2:
+		elif self.x > screen_width/2 and self.y < screen_width/2:
 			self.q = 1
 			self.color = (255, 0, 0)
 	
@@ -41,15 +41,15 @@ class Ball:
 			self.q = 2
 			self.color = (255, 255, 255)
 
-		if self.x < screen_width/2 and self.y > screen_width/2:
+		elif self.x < screen_width/2 and self.y > screen_width/2:
 			self.q = 3
 			self.color =  (0, 255, 0)
 
-		if self.x > screen_width/2 and self.y > screen_width/2:
+		elif self.x > screen_width/2 and self.y > screen_width/2:
 			self.q = 4
 			self.color = (0, 0, 255)
 
-		if self.x > screen_width/2 and self.y < screen_width/2:
+		elif self.x > screen_width/2 and self.y < screen_width/2:
 			self.q = 1
 			self.color = (255, 0, 0)
 		self.x += self.xv
