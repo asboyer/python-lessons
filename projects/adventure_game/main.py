@@ -1,11 +1,21 @@
-print("You are on a lake. You see a shark.")
-choice = input('What do you do? ')
+playing = True
 
-if choice == "run":
-    print("You survived!")
-elif choice.startswith("kill"):
-    print("You can't kill the shark, and it eats you")
-elif choice.startswith("befriend"):
-    print("The shark becomes a close ally after you choose to befriend it")
-else:
-    print("The shark kills you!")
+def fr(name):
+    file = open(f"text/{name}.txt", "r")
+    return file.read()
+
+def choose(level, choices):
+    pass
+
+print(fr("choices/choice1_"))
+
+while playing:
+    # initialize variables
+    current_choice = ""
+    prev_choices = ""
+    score = 0
+    alive = True
+    win = False
+
+    while alive and not win:
+        pass
