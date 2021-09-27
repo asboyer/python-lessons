@@ -1,0 +1,26 @@
+______________________
+xv before: -52
+variance: -15
+xv after: 37
+______________________
+xv before: 37
+variance: -16
+xv after: -53
+______________________
+xv before: -53
+variance: 18
+xv after: 71
+______________________
+xv before: 71
+variance: 1
+xv after: -70
+______________________
+xv before: -70
+variance: 16
+xv after: 86
+______________________
+xv before: 86
+variance: 19
+xv after: -67
+______________________
+xv before: -67
