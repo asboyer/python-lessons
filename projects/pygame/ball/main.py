@@ -5,39 +5,58 @@ from random import randint, choice
 # without objects: life would suck
 class Ball:
     # constructor      # instance fields (parameters we pass into the object)
-    def __init__(self, radius, color, x, y, xv, yv):
+    def __init__(self, radius, color, x, y, xv, yv, randomize, trail):
     # __init__ = initialize
         
         # assign variables to the object
         self.radius = radius
         self.x = x
         self.y = y
-        self.xv = choice([-5, 5])
-        self.yv = choice([-6, 6])
-
-        if self.x > screen_width/2 and self.y < screen_width/2:
-            self.q = 1
-        elif self.x < screen_width/2 and self.y < screen_width/2:
-            self.q = 2
-        elif self.x < screen_width/2 and self.y > screen_width/2:
-            self.q = 3
-        elif self.x > screen_width/2 and self.y > screen_width/2:
-            self.q = 4
-
-        if self.q == 1:
-            self.color = (255, 0, 0)
-        elif self.q == 2:
-            self.color = (0, 255, 0)
-        elif self.q == 3:
-            self.color = (0, 0, 255)
-        elif self.q == 4:
-            self.color = (255, 255, 255)        
+        self.xv = xv
+        self.oxv = xv
+        self.yv = yv
+        self.color = color
+        self.points = []
+        self.randomize = randomize
+        self.trail = trail
 
     def move(self):
-        if self.x >= screen_width - self.radius or self.x <= 0:
-            self.xv = -self.xv
-        if self.y >= screen_width - self.radius or self.y <= 0:
-            self.yv = - self.yv
+
+        if not self.randomize:
+            if self.x >= screen_width - self.radius or self.x <= 0:
+                self.xv = -self.xv
+            if self.y >= screen_width - self.radius or self.y <= 0:
+                self.yv = - self.yv    
+        
+        if self.randomize:
+            if self.x >= screen_width - self.radius:
+                self.xv = -self.xv
+                low = int(self.xv/2)
+                high = int(-self.xv/2)
+                if low > high:
+                    low = -low
+                    high = -high
+                variance = randint(low, high)
+                self.xv += variance
+                if self.x + self.xv >= screen_width == self.radius:
+                    self.xv = -self.oxv
+
+            if self.x <= 0:
+                self.xv = -self.xv
+                low = int(-self.xv/2)
+                high = int(self.xv/2)
+                if low > high:
+                    low = -low
+                    high = -high
+                variance = randint(low, high)
+                self.xv += variance
+                if self.x + self.xv <= 0:
+                    self.xv = self.oxv
+
+            if self.y >= screen_width - self.radius or self.y <= 0:
+                self.yv = - self.yv  
+
+        self.points.append([self.x, self.y, self.color])
 
         self.x += self.xv
         self.y += self.yv
@@ -46,6 +65,13 @@ class Ball:
                             [self.x, self.y, 
                             self.radius, self.radius],
                             0)
+        if self.trail:
+            for point in self.points:
+                pygame.draw.rect(screen, point[2],
+                                [point[0], point[1],
+                                int(self.radius/8),
+                                int(self.radius/8)],
+                                0)
 
 def randcolor():
     r = randint(0, 255)
@@ -60,9 +86,9 @@ RED = (255, 0, 0)
 bg_color = BLACK
 screen_width = 1000
 
-ball_amount = 100
+ball_amount = 1
 
-max_v = 5
+max_v = 20
 min_radius = 50
 max_radius = 100
 
@@ -81,9 +107,9 @@ for i in range(ball_amount):
     ball_x = randint(ball_width, screen_width - ball_width)
     ball_y = randint(ball_width, screen_width - ball_width)
 
-    ball_xv, ball_yv = 0, 0
+    ball_xv, ball_yv = randint(-max_v, max_v), randint(-max_v, max_v)
 
-    while ball_xv == 0 and ball_yv == 0:
+    while ball_xv == 0 or ball_yv == 0:
         ball_xv = randint(-max_v, max_v)
         ball_yv = randint(-max_v, max_v)
 
@@ -93,7 +119,9 @@ for i in range(ball_amount):
                 ball_x,
                 ball_y,
                 ball_xv,
-                ball_yv
+                ball_yv,
+                True,
+                True
                 )
 
     ball_list.append(ball)
