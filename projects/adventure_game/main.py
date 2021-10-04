@@ -5,9 +5,8 @@ def fr(name):
     return file.read()
 
 def choose(level, choices):
-    pass
-
-print(fr("choices/choice1_"))
+    print(fr(f'descriptions/description{level}_{choices}'))
+    return input("\n" + fr(f'choices/choice{level}_{choices}'))
 
 while playing:
     # initialize variables
@@ -16,6 +15,7 @@ while playing:
     score = 0
     alive = True
     win = False
+    level = 1
 
     while alive and not win:
-        pass
+        current_choice = choose(str(level), prev_choices)

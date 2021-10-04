@@ -6,7 +6,7 @@ from random import choice
 # objects 
 class Ball:
     # constructor(instance fields)
-    def __init__(self, radius, color, x, y, xv, yv):
+    def __init__(self, radius, color, x, y, xv, yv, path, rm):
         # assigning variables to the object
         self.radius = radius
         self.color = color
@@ -16,6 +16,8 @@ class Ball:
         self.yv = yv
         self.oxv = xv
         self.oyv = yv
+        self.path = path
+        self.rm = rm
         self.points = []
 
         if self.oxv < 0:
@@ -69,6 +71,8 @@ class Ball:
             self.xv += variance
             if self.x + self.xv >= screen_width - self.radius:
                 self.xv = -self.oxv
+            if self.xv > max_v:
+                self.xv = self.oxv
             print(f'xv after: {self.xv}')
             print("______________________")
 
@@ -85,6 +89,8 @@ class Ball:
             self.xv += variance
             if self.x + self.xv <= 0:
                 self.xv = self.oxv
+            if self.xv > max_v:
+                self.xv = self.oxv
             print(f'xv after: {self.xv}')
             print("______________________")
 
@@ -100,13 +106,13 @@ class Ball:
                             [self.x, self.y, 
                             self.radius, self.radius],
                             0)
-
-        for point in self.points:
-            pygame.draw.ellipse(screen, point[2],
-                                [point[0], point[1],
-                                int(self.radius/4),
-                                int(self.radius/4)], 
-                                0)
+        if self.path:
+            for point in self.points:
+                pygame.draw.ellipse(screen, point[2],
+                                    [point[0], point[1],
+                                    int(self.radius/4),
+                                    int(self.radius/4)], 
+                                    0)
 
 # color format "rgb"
 # (0, 0, 0)
