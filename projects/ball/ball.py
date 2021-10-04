@@ -143,11 +143,11 @@ RED = (255, 0, 0)
 
 # main game variables
 bg_color = BLACK
-screen_width = 1400
+screen_width = 1600
 
-ball_amount = 3
+ball_amount = 100
 
-max_v = 20
+max_v = 10
 min_radius = 50
 max_radius = 200
 
@@ -179,7 +179,7 @@ def randball():
                 ball_y,
                 ball_xv,
                 ball_yv,
-                True,
+                False,
                 True
                 )
     return ball  
@@ -201,7 +201,7 @@ while not done:
     for i in range(len(ball_list)):
         ball_list[i].move()
     for i in range(len(ball_list)):
-        if ball_list[i].get_wh() > 10:
+        if ball_list[i].get_wh() > 14:
             ball_list = balls([])
     pygame.display.update()
     clock.tick(60)
