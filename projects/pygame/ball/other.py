@@ -1,5 +1,5 @@
 import pygame
-from random import randint
+from random import randint, choice
 
 # a class is something that stores variable and functions in "objects"
 # without objects: life would suck
@@ -19,27 +19,17 @@ class Ball:
         self.points = []
         self.randomize = randomize
         self.trail = trail
-        self.wall_hits = 0
-
-        if self.oxv < 0:
-            self.oxv = self.oxv = - self.oxv
 
     def move(self):
 
         if not self.randomize:
             if self.x >= screen_width - self.radius or self.x <= 0:
                 self.xv = -self.xv
-                self.wall_hits += 1
-                self.color = randcolor()
             if self.y >= screen_width - self.radius or self.y <= 0:
                 self.yv = - self.yv    
-                self.wall_hits += 1
-                self.color = randcolor()
         
         if self.randomize:
             if self.x >= screen_width - self.radius:
-                self.wall_hits += 1
-                self.color = randcolor()
                 self.xv = -self.xv
                 low = int(self.xv/2)
                 high = int(-self.xv/2)
@@ -48,14 +38,10 @@ class Ball:
                     high = -high
                 variance = randint(low, high)
                 self.xv += variance
-                if self.x > max_v:
-                    self.xv = self.oxv
-                if self.x + self.xv >= screen_width - self.radius:
+                if self.x + self.xv >= screen_width == self.radius:
                     self.xv = -self.oxv
 
             if self.x <= 0:
-                self.wall_hits += 1
-                self.color = randcolor()
                 self.xv = -self.xv
                 low = int(-self.xv/2)
                 high = int(self.xv/2)
@@ -66,14 +52,9 @@ class Ball:
                 self.xv += variance
                 if self.x + self.xv <= 0:
                     self.xv = self.oxv
-                if self.x > max_v:
-                    self.xv = self.oxv
-
 
             if self.y >= screen_width - self.radius or self.y <= 0:
                 self.yv = - self.yv  
-                self.wall_hits += 1
-                self.color = randcolor()
 
         self.points.append([self.x, self.y, self.color])
 
@@ -86,13 +67,11 @@ class Ball:
                             0)
         if self.trail:
             for point in self.points:
-                pygame.draw.ellipse(screen, point[2],
+                pygame.draw.rect(screen, point[2],
                                 [point[0], point[1],
-                                int(self.radius/4),
-                                int(self.radius/4)],
+                                int(self.radius/8),
+                                int(self.radius/8)],
                                 0)
-    def get_wh(self):
-        return self.wall_hits
 
 def randcolor():
     r = randint(0, 255)
@@ -107,9 +86,9 @@ RED = (255, 0, 0)
 bg_color = BLACK
 screen_width = 1000
 
-ball_amount = 10
+ball_amount = 1
 
-max_v = 5
+max_v = 20
 min_radius = 50
 max_radius = 100
 
@@ -141,7 +120,7 @@ for i in range(ball_amount):
                 ball_y,
                 ball_xv,
                 ball_yv,
-                False,
+                True,
                 True
                 )
 
