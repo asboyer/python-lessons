@@ -1,5 +1,6 @@
 import pygame
 from random import randint
+import os
 
 # a class is something that stores variable and functions in "objects"
 # without objects: life would suck
@@ -88,8 +89,8 @@ class Ball:
             for point in self.points:
                 pygame.draw.ellipse(screen, point[2],
                                 [point[0], point[1],
-                                int(self.radius/4),
-                                int(self.radius/4)],
+                                int(self.radius),
+                                int(self.radius)],
                                 0)
     def get_wh(self):
         return self.wall_hits
@@ -107,9 +108,9 @@ RED = (255, 0, 0)
 bg_color = BLACK
 screen_width = 1000
 
-ball_amount = 10
+ball_amount = 1
 
-max_v = 5
+max_v = 30
 min_radius = 50
 max_radius = 100
 
@@ -118,11 +119,15 @@ ball_list = []
 done = False
 
 pygame.init()
+pygame.mixer.init()
 screen = pygame.display.set_mode((screen_width, screen_width))
 pygame.display.set_caption('Ball')
 clock = pygame.time.Clock()
 
-for i in range(ball_amount):
+s = 'sounds'
+music = pygame.mixer.music.load(os.path.join(s, 'jazz.ogg'))
+
+def randball():
     ball_width = randint(min_radius, max_radius)
     ball_color = randcolor()
     ball_x = randint(ball_width, screen_width - ball_width)
@@ -143,17 +148,31 @@ for i in range(ball_amount):
                 ball_yv,
                 False,
                 True
-                )
+                )   
+    return ball
 
-    ball_list.append(ball)
+def balls(ball_list):
+    for i in range(ball_amount):
+        ball = randball()
+        ball_list.append(ball)
+    return ball_list
+
+ball_list = balls(ball_list)
+
+pygame.mixer.music.play(-1)
 
 while not done:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             done = True
+
     screen.fill(bg_color)
+
     for ball in ball_list:
         ball.move()
+        if ball.get_wh() > 10:
+            ball_list = balls([])
+
     pygame.display.update()
     clock.tick(60)
 
