@@ -1,1 +1,1 @@
-Lie again and say yes[1] or come clean and say no[0]?
+Decisions leading to this point: 1

@@ -1,1 +1,1 @@
-Respond with a yes[1] or no[0]?
+Decisions leading to this point: 

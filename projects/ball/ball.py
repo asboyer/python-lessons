@@ -2,7 +2,7 @@ import pygame
 from random import randint
 from random import choice
 import time
-
+from pygame import mixer as mixer
 # a class is something that stores variables and functions in
 # objects 
 class Ball:
@@ -143,7 +143,7 @@ RED = (255, 0, 0)
 
 # main game variables
 bg_color = BLACK
-screen_width = 1600
+screen_width = 400
 
 ball_amount = 100
 
@@ -156,6 +156,8 @@ ball_list = []
 done = False
 
 pygame.init()
+mixer.init()
+mixer.music.load('train.ogg')
 screen = pygame.display.set_mode((screen_width, screen_width))
 pygame.display.set_caption('Ball')
 clock = pygame.time.Clock()
