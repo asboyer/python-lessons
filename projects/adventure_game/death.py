@@ -14,3 +14,5 @@ for text in types:
         c = filename[1].split('.txt')[0]
         if l >= level and c.startswith(choices):
             os.remove(f'./text/{text}s/{filename}')
+            # test this and see if it really deletes the unnecessary 'description' and 'choice' files 
+            # add a new death file
