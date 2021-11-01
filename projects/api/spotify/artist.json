@@ -1,0 +1,37 @@
+k{
+    "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+    },
+    "followers": {
+        "href": null,
+        "total": 20344889
+    },
+    "genres": [
+        "pop",
+        "r&b",
+        "soul"
+    ],
+    "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+    "id": "3fMbdgg4jU18AjLCKBhRSm",
+    "images": [
+        {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eba2a0b9e3448c1e702de9dc90",
+            "width": 640
+        },
+        {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174a2a0b9e3448c1e702de9dc90",
+            "width": 320
+        },
+        {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178a2a0b9e3448c1e702de9dc90",
+            "width": 160
+        }
+    ],
+    "name": "Michael Jackson",
+    "popularity": 85,
+    "type": "artist",
+    "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+}

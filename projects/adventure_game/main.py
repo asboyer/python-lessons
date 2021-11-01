@@ -27,6 +27,18 @@ def check_win(level, choices):
     else:
         return False
 
+def check_bonus(level, choices=''):
+    if choices == '':
+        bonus_file = f'bonus/bonus{str(level)}'
+    else:
+        bonus_file = f'bonus/bonus{str(level)}_{choices}'
+
+    if path.exists(f'text/{bonus_file}.txt'):
+        print('bonus question!')
+        file = open(f'text/{bonus_file}.txt', 'r')
+        lines = file.readlines()
+        print(lines)
+
 def play_again():
     while True:
         choice = input("Play again? ")
@@ -52,6 +64,7 @@ while playing:
     level = 1
 
     while alive and not win:
+        
         current_choice = choose(str(level), prev_choices)
         prev_choices += current_choice
         alive = check_alive(level, prev_choices)
@@ -65,4 +78,5 @@ while playing:
         print('you win!')
     else:
         print('game over!')
+        print(f'this is the level you reached: {level}')
     input("Press enter to continue")
