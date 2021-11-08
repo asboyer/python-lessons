@@ -12,8 +12,32 @@ bad_data = [
         'limit',
         'next',
         'offset',
-        'previous'
+        'previous',
+        'added_by',
+        'album'
         ]        
+
+def clean_result(result):
+    for track in list(result):
+        for data in list(track):
+            if data in bad_data:
+                del track[data]
+            for d in list(track['track']):
+                if d in bad_data:
+                    del track['track'][d]
+        artist_list = []
+
+        for artist in track['track']['artists']:
+            artist_list.append(artist['name'])
+        artists_string = ''
+        for i in range(len(artist_list)):
+            if i == len(artist_list) - 1:
+                artists_string += artist_list[i]
+            else:
+                artists_string += f'{artist_list[i]}, '
+        track['track']['artists'] = artists_string
+
+    return result
 
 def clean_album_result(result):
     for data_field in list(result):

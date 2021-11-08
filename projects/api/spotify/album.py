@@ -12,6 +12,5 @@ uri = 'spotify:album:5CnpZV3q5BcESefcB3WJmz'
 
 result = clean_album_result(spotify.album(uri))
 
-
 with open("album.json", "w") as file:
     json.dump(result, file, indent=4)
