@@ -14,10 +14,13 @@ bad_data = [
         'offset',
         'previous',
         'added_by',
-        'album'
+        'album',
+        "video_thumbnail",
+        "added_at",
+        "primary_color",
         ]        
 
-def clean_result(result):
+def clean_playlist_tracks(result):
     for track in list(result):
         for data in list(track):
             if data in bad_data:
@@ -37,7 +40,16 @@ def clean_result(result):
                 artists_string += f'{artist_list[i]}, '
         track['track']['artists'] = artists_string
 
-    return result
+    songs = {}
+
+    rank = 1
+    for track in list(result):
+        songs[str(rank)] = {}
+        songs[str(rank)]['name'] = track['track']['name']
+        songs[str(rank)]['artists'] = track['track']['artists']
+        rank += 1
+
+    return songs
 
 def clean_album_result(result):
     for data_field in list(result):

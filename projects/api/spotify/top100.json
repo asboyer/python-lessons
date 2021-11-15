@@ -1,0 +1,402 @@
+{
+    "1": {
+        "name": "Easy On Me",
+        "artists": "Adele"
+    },
+    "2": {
+        "name": "STAY (with Justin Bieber)",
+        "artists": "The Kid LAROI, Justin Bieber"
+    },
+    "3": {
+        "name": "INDUSTRY BABY (feat. Jack Harlow)",
+        "artists": "Lil Nas X, Jack Harlow"
+    },
+    "4": {
+        "name": "Bad Habits",
+        "artists": "Ed Sheeran"
+    },
+    "5": {
+        "name": "Fancy Like",
+        "artists": "Walker Hayes"
+    },
+    "6": {
+        "name": "Shivers",
+        "artists": "Ed Sheeran"
+    },
+    "7": {
+        "name": "Way 2 Sexy (with Future & Young Thug)",
+        "artists": "Drake, Future, Young Thug"
+    },
+    "8": {
+        "name": "Need to Know",
+        "artists": "Doja Cat"
+    },
+    "9": {
+        "name": "good 4 u",
+        "artists": "Olivia Rodrigo"
+    },
+    "10": {
+        "name": "Heat Waves",
+        "artists": "Glass Animals"
+    },
+    "11": {
+        "name": "Levitating",
+        "artists": "Dua Lipa"
+    },
+    "12": {
+        "name": "Essence (feat. Justin Bieber & Tems)",
+        "artists": "WizKid, Justin Bieber, Tems"
+    },
+    "13": {
+        "name": "Beggin'",
+        "artists": "M\u00e5neskin"
+    },
+    "14": {
+        "name": "Cold Heart - PNAU Remix",
+        "artists": "Elton John, Dua Lipa, PNAU"
+    },
+    "15": {
+        "name": "Kiss Me More (feat. SZA)",
+        "artists": "Doja Cat, SZA"
+    },
+    "16": {
+        "name": "You Right",
+        "artists": "Doja Cat, The Weeknd"
+    },
+    "17": {
+        "name": "Save Your Tears (with Ariana Grande) (Remix)",
+        "artists": "The Weeknd, Ariana Grande"
+    },
+    "18": {
+        "name": "If I Didn't Love You",
+        "artists": "Jason Aldean, Carrie Underwood"
+    },
+    "19": {
+        "name": "Thriller",
+        "artists": "Michael Jackson"
+    },
+    "20": {
+        "name": "traitor",
+        "artists": "Olivia Rodrigo"
+    },
+    "21": {
+        "name": "Meet Me At Our Spot",
+        "artists": "THE ANXIETY, WILLOW, Tyler Cole"
+    },
+    "22": {
+        "name": "Knife Talk (with 21 Savage ft. Project Pat)",
+        "artists": "Drake, 21 Savage, Project Pat"
+    },
+    "23": {
+        "name": "My Universe",
+        "artists": "Coldplay, BTS"
+    },
+    "24": {
+        "name": "Who Want Smoke?? (feat. G Herbo, Lil Durk & 21 Savage)",
+        "artists": "Nardo Wick, G Herbo, Lil Durk, 21 Savage"
+    },
+    "25": {
+        "name": "Chasing After You (with Maren Morris)",
+        "artists": "Ryan Hurd, Maren Morris"
+    },
+    "26": {
+        "name": "Girls Want Girls (with Lil Baby)",
+        "artists": "Drake, Lil Baby"
+    },
+    "27": {
+        "name": "MONTERO (Call Me By Your Name)",
+        "artists": "Lil Nas X"
+    },
+    "28": {
+        "name": "Happier Than Ever",
+        "artists": "Billie Eilish"
+    },
+    "29": {
+        "name": "Better Days (NEIKED x Mae Muller x Polo G)",
+        "artists": "NEIKED, Mae Muller, Polo G"
+    },
+    "30": {
+        "name": "Pepas",
+        "artists": "Farruko"
+    },
+    "31": {
+        "name": "Buy Dirt",
+        "artists": "Jordan Davis, Luke Bryan"
+    },
+    "32": {
+        "name": "THATS WHAT I WANT",
+        "artists": "Lil Nas X"
+    },
+    "33": {
+        "name": "love nwantiti (ah ah ah)",
+        "artists": "CKay"
+    },
+    "34": {
+        "name": "Cold As You",
+        "artists": "Luke Combs"
+    },
+    "35": {
+        "name": "Ghost",
+        "artists": "Justin Bieber"
+    },
+    "36": {
+        "name": "Thinking 'Bout You (feat. MacKenzie Porter)",
+        "artists": "Dustin Lynch, MacKenzie Porter"
+    },
+    "37": {
+        "name": "Monster Mash",
+        "artists": "Bobby \"Boris\" Pickett, The Crypt-Kickers"
+    },
+    "38": {
+        "name": "Wockesha",
+        "artists": "Moneybagg Yo"
+    },
+    "39": {
+        "name": "You Should Probably Leave",
+        "artists": "Chris Stapleton"
+    },
+    "40": {
+        "name": "Ghostbusters",
+        "artists": "Ray Parker Jr."
+    },
+    "41": {
+        "name": "Overpass Graffiti",
+        "artists": "Ed Sheeran"
+    },
+    "42": {
+        "name": "Somebody's Watching Me",
+        "artists": "Rockwell"
+    },
+    "43": {
+        "name": "Wild Side (feat. Cardi B)",
+        "artists": "Normani, Cardi B"
+    },
+    "44": {
+        "name": "Leave The Door Open",
+        "artists": "Bruno Mars, Anderson .Paak, Silk Sonic"
+    },
+    "45": {
+        "name": "Take My Breath",
+        "artists": "The Weeknd"
+    },
+    "46": {
+        "name": "GYALIS",
+        "artists": "Capella Grey"
+    },
+    "47": {
+        "name": "I Was On a Boat That Day",
+        "artists": "Old Dominion"
+    },
+    "48": {
+        "name": "Same Boat",
+        "artists": "Zac Brown Band"
+    },
+    "49": {
+        "name": "family ties (with Kendrick Lamar)",
+        "artists": "Baby Keem, Kendrick Lamar"
+    },
+    "50": {
+        "name": "Sharing Locations (feat. Lil Baby & Lil Durk)",
+        "artists": "Meek Mill, Lil Durk, Lil Baby"
+    },
+    "51": {
+        "name": "Have Mercy",
+        "artists": "Chl\u00f6e"
+    },
+    "52": {
+        "name": "A-O-K",
+        "artists": "Tai Verdes"
+    },
+    "53": {
+        "name": "Chosen (feat. Ty Dolla $ign)",
+        "artists": "Blxst, Tyga, Ty Dolla $ign"
+    },
+    "54": {
+        "name": "Moth To A Flame (with The Weeknd)",
+        "artists": "Swedish House Mafia, The Weeknd"
+    },
+    "55": {
+        "name": "Fair Trade (with Travis Scott)",
+        "artists": "Drake, Travis Scott"
+    },
+    "56": {
+        "name": "Bubbly (with Drake & Travis Scott)",
+        "artists": "Young Thug, Drake, Travis Scott"
+    },
+    "57": {
+        "name": "Knowing You",
+        "artists": "Kenny Chesney"
+    },
+    "58": {
+        "name": "Memory I Don't Mess With",
+        "artists": "Lee Brice"
+    },
+    "59": {
+        "name": "One Mississippi",
+        "artists": "Kane Brown"
+    },
+    "60": {
+        "name": "Memory",
+        "artists": "Kane Brown, blackbear"
+    },
+    "61": {
+        "name": "Demon High",
+        "artists": "Lil Uzi Vert"
+    },
+    "62": {
+        "name": "Sand In My Boots",
+        "artists": "Morgan Wallen"
+    },
+    "63": {
+        "name": "Hurricane",
+        "artists": "Kanye West"
+    },
+    "64": {
+        "name": "Woman",
+        "artists": "Doja Cat"
+    },
+    "65": {
+        "name": "Baddest (feat. Chris Brown & 2 Chainz)",
+        "artists": "Yung Bleu, Chris Brown, 2 Chainz"
+    },
+    "66": {
+        "name": "Cold Beer Calling My Name",
+        "artists": "Jameson Rodgers, Luke Combs"
+    },
+    "67": {
+        "name": "Whiskey And Rain",
+        "artists": "Michael Ray"
+    },
+    "68": {
+        "name": "Tequila Little Time",
+        "artists": "Jon Pardi"
+    },
+    "69": {
+        "name": "Too Easy",
+        "artists": "Gunna, Future"
+    },
+    "70": {
+        "name": "'Til You Can't",
+        "artists": "Cody Johnson"
+    },
+    "71": {
+        "name": "Jugaste y Sufr\u00ed",
+        "artists": "Eslabon Armado, DannyLux"
+    },
+    "72": {
+        "name": "Volv\u00ed",
+        "artists": "Aventura, Bad Bunny"
+    },
+    "73": {
+        "name": "Love Again",
+        "artists": "Dua Lipa"
+    },
+    "74": {
+        "name": "Maybach (feat. Future)",
+        "artists": "42 Dugg, Future"
+    },
+    "75": {
+        "name": "My Boy",
+        "artists": "Elvie Shane"
+    },
+    "76": {
+        "name": "Big Energy",
+        "artists": "Latto"
+    },
+    "77": {
+        "name": "2055",
+        "artists": "Sleepy Hallow"
+    },
+    "78": {
+        "name": "Praise God",
+        "artists": "Kanye West"
+    },
+    "79": {
+        "name": "Poke It Out (feat. J. Cole)",
+        "artists": "Wale, J. Cole, Cool & Dre"
+    },
+    "80": {
+        "name": "For Tonight",
+        "artists": "Giveon"
+    },
+    "81": {
+        "name": "Rap Freaks",
+        "artists": "Yung Miami"
+    },
+    "82": {
+        "name": "Eat It",
+        "artists": "Megan Thee Stallion"
+    },
+    "83": {
+        "name": "Est\u00e1 Da\u00f1ada",
+        "artists": "Ivan Cornejo"
+    },
+    "84": {
+        "name": "Freedom Was A Highway",
+        "artists": "Jimmie Allen, Brad Paisley"
+    },
+    "85": {
+        "name": "WHOLE LOTTA MONEY (feat. Nicki Minaj) - Remix",
+        "artists": "BIA, Nicki Minaj"
+    },
+    "86": {
+        "name": "Switches & Dracs (with Lil Durk feat. EST Gee)",
+        "artists": "Moneybagg Yo, Lil Durk, EST Gee"
+    },
+    "87": {
+        "name": "half of my hometown (feat. Kenny Chesney)",
+        "artists": "Kelsea Ballerini, Kenny Chesney"
+    },
+    "88": {
+        "name": "Get Into It (Yuh)",
+        "artists": "Doja Cat"
+    },
+    "89": {
+        "name": "Pissed Me Off",
+        "artists": "Lil Durk"
+    },
+    "90": {
+        "name": "Lo Siento BB:/ (with Bad Bunny & Julieta Venegas)",
+        "artists": "Tainy, Bad Bunny, Julieta Venegas"
+    },
+    "91": {
+        "name": "Ya Sup\u00e9rame (En Vivo)",
+        "artists": "Grupo Firme"
+    },
+    "92": {
+        "name": "Who's In Your Head",
+        "artists": "Jonas Brothers"
+    },
+    "93": {
+        "name": "MONEY",
+        "artists": "LISA"
+    },
+    "94": {
+        "name": "Come Through (feat. Chris Brown)",
+        "artists": "H.E.R., Chris Brown"
+    },
+    "95": {
+        "name": "WFM",
+        "artists": "Realestk"
+    },
+    "96": {
+        "name": "Lets Go Brandon",
+        "artists": "Loza Alexander"
+    },
+    "97": {
+        "name": "Just About Over You",
+        "artists": "Priscilla Block"
+    },
+    "98": {
+        "name": "To Be Loved By You",
+        "artists": "Parker McCollum"
+    },
+    "99": {
+        "name": "Let's Go Brandon",
+        "artists": "Bryson Gray, Tyson James, Chandler Crump"
+    },
+    "100": {
+        "name": "GHOST TOWN",
+        "artists": "Benson Boone"
+    }
+}
