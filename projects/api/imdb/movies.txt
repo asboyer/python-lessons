@@ -68,17 +68,17 @@ Princess Mononoke
 Joker
 Oldboy
 Your Name.
-The Dark Knight Rises
 Coco
+The Dark Knight Rises
 Aliens
 Once Upon a Time in America
-Capernaum
 Avengers: Endgame
+Capernaum
 Das Boot
 High and Low
 American Beauty
-Toy Story
 3 Idiots
+Toy Story
 Amadeus
 Braveheart
 Hamilton
@@ -90,8 +90,8 @@ Reservoir Dogs
 M
 Vertigo
 Like Stars on Earth
-Citizen Kane
 Come and See
+Citizen Kane
 The Hunt
 Requiem for a Dream
 Singin' in the Rain
@@ -102,19 +102,19 @@ Ikiru
 Lawrence of Arabia
 The Kid
 Full Metal Jacket
+Jai Bhim
 Dangal
 The Father
 The Apartment
 Incendies
-Pather Panchali
-A Clockwork Orange
 Metropolis
-Taxi Driver
+A Clockwork Orange
+Pather Panchali
 Double Indemnity
+Taxi Driver
 A Separation
 The Sting
 Scarface
-Jai Bhim
 Snatch
 1917
 Amélie
@@ -146,13 +146,13 @@ There Will Be Blood
 The Treasure of the Sierra Madre
 Pan's Labyrinth
 A Beautiful Mind
-Dune
-Dersu Uzala
 The Secret in Their Eyes
+Dersu Uzala
 Raging Bull
 Chinatown
 My Neighbor Totoro
 Lock, Stock and Two Smoking Barrels
+Dune
 Shutter Island
 The Gold Rush
 No Country for Old Men
@@ -165,8 +165,8 @@ The Sixth Sense
 Klaus
 Wild Strawberries
 The Third Man
-The Truman Show
 Jurassic Park
+The Truman Show
 V for Vendetta
 Memories of Murder
 Blade Runner
@@ -181,22 +181,23 @@ Gone with the Wind
 Tokyo Story
 On the Waterfront
 My Father and My Son
-Z
-Wild Tales
 Stalker
+Wild Tales
+Z
 The Deer Hunter
-Sherlock Jr.
-The General
-Gran Torino
-Persona
 Prisoners
+Gran Torino
 The Grand Budapest Hotel
+The General
+Persona
+Sherlock Jr.
 Before Sunrise
 Mary and Max
 Mr. Smith Goes to Washington
 Catch Me If You Can
 In the Name of the Father
 Room
+96
 Barry Lyndon
 Gone Girl
 Hacksaw Ridge
@@ -214,37 +215,36 @@ Ben-Hur
 Harry Potter and the Deathly Hallows: Part 2
 Million Dollar Baby
 The Wages of Fear
-Stand by Me
 The Handmaiden
+Stand by Me
 Network
 Logan
 Cool Hand Luke
 Hachi: A Dog's Tale
 Gangs of Wasseypur
-The 400 Blows
 La Haine
+The 400 Blows
 Platoon
 A Silent Voice: The Movie
 Spotlight
-Rebecca
 Monsters, Inc.
+Rebecca
 Monty Python's Life of Brian
-The Bandit
 Hotel Rwanda
+The Bandit
 In the Mood for Love
 Rush
 Into the Wild
 Amores perros
 Rocky
 Nausicaä of the Valley of the Wind
-Andrei Rublev
 It Happened One Night
+Andrei Rublev
 Before Sunset
 Fanny and Alexander
 The Battle of Algiers
 Neon Genesis Evangelion: The End of Evangelion
-The Princess Bride
 Nights of Cabiria
+The Princess Bride
 Paris, Texas
-Three Colors: Red
-Tangerines
+Soorarai Pottru
