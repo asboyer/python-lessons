@@ -1,20 +1,25 @@
-import imdb, json
+import imdb, json, sys
 
 ia = imdb.IMDb()
 
-# topsters = ia.get_top250_movies()
+movie_id = sys.argv[1] 
+movie = ia.get_movie(movie_id)
 
-# f = open('movies.txt', 'w')
-# for i in range(250):
-#     f.write(topsters[i]['title'] + "\n")
-
-movie = ia.get_movie('0121766')
-# f = open('movie_ref.txt', 'w')
-# for key in movie.keys():
-#     f.write(key + "\n")
 movie_json = {}
+characters = []
+for member in movie['cast']:
+    try:
+        role = member.currentRole
+        if len(role) > 1:
+            for character in role:
+                characters.append(character['name'])
+        else:
+            characters.append(role['name'])
+    except KeyError:
+        pass
+movie_json['characters'] = characters
+
 for key in movie.keys():
-    print(key)
     if key == 'cast':
         movie_json['cast'] = []
         for p in movie['cast']:
@@ -31,5 +36,5 @@ for key in movie.keys():
     else:
         movie_json[key] = movie[key]
 
-with open(movie['title'].replace(" ", "_").lower() + ".json", 'w') as jsf:
-    json.dump(movie_json, jsf, indent=4)
+with open(movie['title'].replace(" ", "_").lower() + ".json", 'w', encoding='utf8') as jsf:
+    json.dump(movie_json, jsf, indent=4, ensure_ascii=False)
