@@ -14,5 +14,5 @@ for text in types:
         c = filename[1].split('.txt')[0]
         if int(l) >= level + 1 and c.startswith(choices):
             os.remove(f'./text/{text}s/{filename[0]}_{filename[1]}')
-f = open(f'./text/deaths/death{str(level)}_{choices}.txt', 'w')
+f = open(f'./text/wins/win{str(level)}_{choices}.txt', 'w')
 f.close()

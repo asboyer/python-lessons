@@ -1,0 +1,67 @@
+localized title
+cast
+genres
+runtimes
+countries
+country codes
+language codes
+color info
+aspect ratio
+sound mix
+box office
+certificates
+original air date
+rating
+votes
+cover url
+imdbID
+plot outline
+languages
+title
+year
+kind
+directors
+writers
+producers
+composers
+cinematographers
+editors
+editorial department
+casting directors
+production designers
+art directors
+set decorators
+costume designers
+make up department
+production managers
+assistant directors
+art department
+sound department
+special effects
+visual effects
+stunts
+camera department
+animation department
+casting department
+costume departmen
+location management
+music department
+script department
+transportation department
+miscellaneous
+thanks
+akas
+writer
+director
+production companies
+distributors
+special effects companies
+other companies
+plot
+synopsis
+canonical title
+long imdb title
+long imdb canonical title
+smart canonical title
+smart long imdb canonical title
+full-size cover url
