@@ -1,9 +1,24 @@
 bad_data = [
-            'available_markets', 'album_type', 'album_group', 'type', 
-            'external_urls', 'external_ids','release_date_precision', 
-            'genres', 'is_local', 'disc_number', 'offset', 'limit', 
-            'next', 'previous', 'total', 'href', 'album', 'id'
-            ]
+        'available_markets', 
+        'album_type', 
+        'album_group', 
+        'type',
+        'external_urls', 
+        'external_ids', 
+        'copyrights', 
+        'release_date_precision',
+        'href',
+        'is_local',
+        'limit',
+        'next',
+        'offset',
+        'previous',
+        'added_by',
+        'album',
+        "video_thumbnail",
+        "added_at",
+        "primary_color",
+        ]      
 
 def string_comma(l):
     string = ""
@@ -59,3 +74,26 @@ def clean_album_result(result):
     result['tracks'] = t
 
     return result
+
+def clean_pr_tracks(result):
+    result = result['items']
+    for track in list(result):
+        for data in list(track):
+            if data in bad_data:
+                del track[data]
+            for d in list(track['track']):
+                if d in bad_data:
+                    del track['track'][d]
+
+    #HOMEWORK:
+    # turn "artists" list of dictionaries into a string of artists seprated by commas
+    """
+    [
+    {"name": "Lil Nas X"},
+    {"name": "Jack Harlow"}
+    ]
+    ->
+    Jack Harlow, Lil Nas X
+    """
+    return result
+
