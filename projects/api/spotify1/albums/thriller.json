@@ -1,0 +1,94 @@
+{
+    "artists": "Michael Jackson",
+    "copyrights": "(P) 1982 MJJ Productions Inc.",
+    "label": "Epic",
+    "name": "Thriller",
+    "popularity": 70,
+    "release_date": "1982-11-30",
+    "total_tracks": 9,
+    "uri": "spotify:album:2ANVost0y2y52ema1E9xAZ",
+    "image": "https://i.scdn.co/image/ab67616d0000b273de437d960dda1ac0a3586d97",
+    "tracks": [
+        {
+            "artists": "Michael Jackson",
+            "duration_ms": 363400,
+            "explicit": false,
+            "name": "Wanna Be Startin' Somethin'",
+            "preview_url": "https://p.scdn.co/mp3-preview/1cf257e961442bb7eb36437322df73de7260f685?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track_number": 1,
+            "uri": "spotify:track:1hu2s7qkm5bo03eODpRQO3"
+        },
+        {
+            "artists": "Michael Jackson",
+            "duration_ms": 260666,
+            "explicit": false,
+            "name": "Baby Be Mine",
+            "preview_url": "https://p.scdn.co/mp3-preview/857d5d45eeff1b3279116e13f33377759c8d342b?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track_number": 2,
+            "uri": "spotify:track:6XYbMGvtl6tlPoGWaiH7EY"
+        },
+        {
+            "artists": "Michael Jackson, Paul McCartney",
+            "duration_ms": 222333,
+            "explicit": false,
+            "name": "The Girl Is Mine (with Paul McCartney)",
+            "preview_url": "https://p.scdn.co/mp3-preview/a7f395f9551549e5ce0f7df7efc6941ff548906e?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track_number": 3,
+            "uri": "spotify:track:4IT6vDuKprKl6jyVndlY8V"
+        },
+        {
+            "artists": "Michael Jackson",
+            "duration_ms": 357800,
+            "explicit": false,
+            "name": "Thriller",
+            "preview_url": "https://p.scdn.co/mp3-preview/ce952e03f2bc0daec0a672377e3db6059f8dfa48?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track_number": 4,
+            "uri": "spotify:track:2LlQb7Uoj1kKyGhlkBf9aC"
+        },
+        {
+            "artists": "Michael Jackson",
+            "duration_ms": 258399,
+            "explicit": false,
+            "name": "Beat It",
+            "preview_url": "https://p.scdn.co/mp3-preview/0c5daa956ae12cb073d20340a60501c4b8351152?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track_number": 5,
+            "uri": "spotify:track:3BovdzfaX4jb5KFQwoPfAw"
+        },
+        {
+            "artists": "Michael Jackson",
+            "duration_ms": 294226,
+            "explicit": false,
+            "name": "Billie Jean",
+            "preview_url": "https://p.scdn.co/mp3-preview/14a1ddedf05a15ad0ac11ce28b40ea1a15fabd20?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track_number": 6,
+            "uri": "spotify:track:7J1uxwnxfQLu4APicE5Rnj"
+        },
+        {
+            "artists": "Michael Jackson",
+            "duration_ms": 246040,
+            "explicit": false,
+            "name": "Human Nature",
+            "preview_url": "https://p.scdn.co/mp3-preview/a4f20ae59c7cfdea5e68cb46f80e33d82f572b2f?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track_number": 7,
+            "uri": "spotify:track:4cgjA7B4fJBHyB9Ya2bu0t"
+        },
+        {
+            "artists": "Michael Jackson",
+            "duration_ms": 239026,
+            "explicit": false,
+            "name": "P.Y.T. (Pretty Young Thing)",
+            "preview_url": "https://p.scdn.co/mp3-preview/d87ef51436b494e3efeef8fe5101286c58233682?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track_number": 8,
+            "uri": "spotify:track:1CgmY8fVN7kstVDZmsdM5k"
+        },
+        {
+            "artists": "Michael Jackson",
+            "duration_ms": 300106,
+            "explicit": false,
+            "name": "The Lady in My Life",
+            "preview_url": "https://p.scdn.co/mp3-preview/2f2577e9eb7a8b6142c1501252fa5c9c63248121?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track_number": 9,
+            "uri": "spotify:track:07L1pzoVerhRSSaDGZHrKy"
+        }
+    ]
+}
