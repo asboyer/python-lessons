@@ -1,0 +1,1622 @@
+[
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4dpARuHxo51G3z768sgnrY"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4dpARuHxo51G3z768sgnrY",
+                    "id": "4dpARuHxo51G3z768sgnrY",
+                    "name": "Adele",
+                    "type": "artist",
+                    "uri": "spotify:artist:4dpARuHxo51G3z768sgnrY"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 224694,
+            "episode": false,
+            "explicit": false,
+            "id": "46IZ0fSY2mpAiktS3KOqds",
+            "name": "Easy On Me",
+            "popularity": 90,
+            "preview_url": "https://p.scdn.co/mp3-preview/c5014be1aeb2ab5f129e2789eff3ea87ecd5027f?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 2,
+            "uri": "spotify:track:46IZ0fSY2mpAiktS3KOqds"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02",
+                    "id": "06HL4z0CvFAxyc27GXpf02",
+                    "name": "Taylor Swift",
+                    "type": "artist",
+                    "uri": "spotify:artist:06HL4z0CvFAxyc27GXpf02"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 613026,
+            "episode": false,
+            "explicit": true,
+            "id": "5enxwA8aAbwZbf5qCHORXi",
+            "name": "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
+            "popularity": 95,
+            "preview_url": null,
+            "track": true,
+            "track_number": 30,
+            "uri": "spotify:track:5enxwA8aAbwZbf5qCHORXi"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7jVv8c5Fj3E9VhNjxT4snq"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/7jVv8c5Fj3E9VhNjxT4snq",
+                    "id": "7jVv8c5Fj3E9VhNjxT4snq",
+                    "name": "Lil Nas X",
+                    "type": "artist",
+                    "uri": "spotify:artist:7jVv8c5Fj3E9VhNjxT4snq"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LIk90788K0zvyj2JJVwkJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LIk90788K0zvyj2JJVwkJ",
+                    "id": "2LIk90788K0zvyj2JJVwkJ",
+                    "name": "Jack Harlow",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LIk90788K0zvyj2JJVwkJ"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 212352,
+            "episode": false,
+            "explicit": true,
+            "id": "5Z9KJZvQzH6PFmb8SNkxuk",
+            "name": "INDUSTRY BABY (feat. Jack Harlow)",
+            "popularity": 90,
+            "preview_url": "https://p.scdn.co/mp3-preview/c1cb40d748692992bd5e476fc17ffe16f31016e3?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 3,
+            "uri": "spotify:track:5Z9KJZvQzH6PFmb8SNkxuk"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4yvcSjfu4PC0CYQyLy4wSq"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4yvcSjfu4PC0CYQyLy4wSq",
+                    "id": "4yvcSjfu4PC0CYQyLy4wSq",
+                    "name": "Glass Animals",
+                    "type": "artist",
+                    "uri": "spotify:artist:4yvcSjfu4PC0CYQyLy4wSq"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 238805,
+            "episode": false,
+            "explicit": false,
+            "id": "02MWAaffLxlfxAUY7c5dvx",
+            "name": "Heat Waves",
+            "popularity": 92,
+            "preview_url": null,
+            "track": true,
+            "track_number": 14,
+            "uri": "spotify:track:02MWAaffLxlfxAUY7c5dvx"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2tIP7SsRs7vjIcLrU85W8J"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2tIP7SsRs7vjIcLrU85W8J",
+                    "id": "2tIP7SsRs7vjIcLrU85W8J",
+                    "name": "The Kid LAROI",
+                    "type": "artist",
+                    "uri": "spotify:artist:2tIP7SsRs7vjIcLrU85W8J"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
+                    "id": "1uNFoZAHBGtllmzznpCI3s",
+                    "name": "Justin Bieber",
+                    "type": "artist",
+                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 141805,
+            "episode": false,
+            "explicit": true,
+            "id": "5PjdY0CKGZdEuoNab3yDmX",
+            "name": "STAY (with Justin Bieber)",
+            "popularity": 92,
+            "preview_url": "https://p.scdn.co/mp3-preview/dd4d8d66b97b6edcb5358135e72620715e1449f9?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 3,
+            "uri": "spotify:track:5PjdY0CKGZdEuoNab3yDmX"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2VSHKHBTiXWplO8lxcnUC9"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2VSHKHBTiXWplO8lxcnUC9",
+                    "id": "2VSHKHBTiXWplO8lxcnUC9",
+                    "name": "GAYLE",
+                    "type": "artist",
+                    "uri": "spotify:artist:2VSHKHBTiXWplO8lxcnUC9"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 168601,
+            "episode": false,
+            "explicit": true,
+            "id": "4fouWK6XVHhzl78KzQ1UjL",
+            "name": "abcdefu",
+            "popularity": 91,
+            "preview_url": "https://p.scdn.co/mp3-preview/25a618c8bbf72ac750ab2024c8b987820ecc1cd1?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:4fouWK6XVHhzl78KzQ1UjL"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4cPHsZM98sKzmV26wlwD2W"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4cPHsZM98sKzmV26wlwD2W",
+                    "id": "4cPHsZM98sKzmV26wlwD2W",
+                    "name": "Brenda Lee",
+                    "type": "artist",
+                    "uri": "spotify:artist:4cPHsZM98sKzmV26wlwD2W"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 126266,
+            "episode": false,
+            "explicit": false,
+            "id": "2EjXfH91m7f8HiJN1yQg97",
+            "name": "Rockin' Around The Christmas Tree",
+            "popularity": 87,
+            "preview_url": null,
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:2EjXfH91m7f8HiJN1yQg97"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4iHNK0tOyZPYnBU7nGAgpQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4iHNK0tOyZPYnBU7nGAgpQ",
+                    "id": "4iHNK0tOyZPYnBU7nGAgpQ",
+                    "name": "Mariah Carey",
+                    "type": "artist",
+                    "uri": "spotify:artist:4iHNK0tOyZPYnBU7nGAgpQ"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 241106,
+            "episode": false,
+            "explicit": false,
+            "id": "0bYg9bo50gSsH3LtXe2SQn",
+            "name": "All I Want for Christmas Is You",
+            "popularity": 91,
+            "preview_url": "https://p.scdn.co/mp3-preview/bbafd15ff484394a0ca106d5fef0a81eeea4ef5b?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 2,
+            "uri": "spotify:track:0bYg9bo50gSsH3LtXe2SQn"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/38EmEgXkgK51MT2tPY0EoC"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/38EmEgXkgK51MT2tPY0EoC",
+                    "id": "38EmEgXkgK51MT2tPY0EoC",
+                    "name": "Bobby Helms",
+                    "type": "artist",
+                    "uri": "spotify:artist:38EmEgXkgK51MT2tPY0EoC"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 130973,
+            "episode": false,
+            "explicit": false,
+            "id": "7vQbuQcyTflfCIOu3Uzzya",
+            "name": "Jingle Bell Rock",
+            "popularity": 86,
+            "preview_url": null,
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:7vQbuQcyTflfCIOu3Uzzya"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0du5cEVh5yTK9QJze8zA0C",
+                    "id": "0du5cEVh5yTK9QJze8zA0C",
+                    "name": "Bruno Mars",
+                    "type": "artist",
+                    "uri": "spotify:artist:0du5cEVh5yTK9QJze8zA0C"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3jK9MiCrA42lLAdMGUZpwa"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3jK9MiCrA42lLAdMGUZpwa",
+                    "id": "3jK9MiCrA42lLAdMGUZpwa",
+                    "name": "Anderson .Paak",
+                    "type": "artist",
+                    "uri": "spotify:artist:3jK9MiCrA42lLAdMGUZpwa"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6PvvGcCY2XtUcSRld1Wilr"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6PvvGcCY2XtUcSRld1Wilr",
+                    "id": "6PvvGcCY2XtUcSRld1Wilr",
+                    "name": "Silk Sonic",
+                    "type": "artist",
+                    "uri": "spotify:artist:6PvvGcCY2XtUcSRld1Wilr"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 197442,
+            "episode": false,
+            "explicit": false,
+            "id": "7sMBvZCSUl99bJLXZaLa0b",
+            "name": "Smokin Out The Window",
+            "popularity": 80,
+            "preview_url": "https://p.scdn.co/mp3-preview/5c0216fcadf85b6dd7653bada342ead1f0881db8?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 5,
+            "uri": "spotify:track:7sMBvZCSUl99bJLXZaLa0b"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1McMsnEElThX1knmY4oliG",
+                    "id": "1McMsnEElThX1knmY4oliG",
+                    "name": "Olivia Rodrigo",
+                    "type": "artist",
+                    "uri": "spotify:artist:1McMsnEElThX1knmY4oliG"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 178146,
+            "episode": false,
+            "explicit": true,
+            "id": "4ZtFanR9U6ndgddUvNcjcG",
+            "name": "good 4 u",
+            "popularity": 94,
+            "preview_url": null,
+            "track": true,
+            "track_number": 6,
+            "uri": "spotify:track:4ZtFanR9U6ndgddUvNcjcG"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4",
+                    "id": "3TVXtAsR1Inumwj472S9r4",
+                    "name": "Drake",
+                    "type": "artist",
+                    "uri": "spotify:artist:3TVXtAsR1Inumwj472S9r4"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1URnnhqYAYcrqrcwql10ft"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1URnnhqYAYcrqrcwql10ft",
+                    "id": "1URnnhqYAYcrqrcwql10ft",
+                    "name": "21 Savage",
+                    "type": "artist",
+                    "uri": "spotify:artist:1URnnhqYAYcrqrcwql10ft"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/08Ld63UgKrJ0nZnCkzHtzc"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/08Ld63UgKrJ0nZnCkzHtzc",
+                    "id": "08Ld63UgKrJ0nZnCkzHtzc",
+                    "name": "Project Pat",
+                    "type": "artist",
+                    "uri": "spotify:artist:08Ld63UgKrJ0nZnCkzHtzc"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 242965,
+            "episode": false,
+            "explicit": true,
+            "id": "2BcMwX1MPV6ZHP4tUT9uq6",
+            "name": "Knife Talk (with 21 Savage ft. Project Pat)",
+            "popularity": 90,
+            "preview_url": null,
+            "track": true,
+            "track_number": 13,
+            "uri": "spotify:track:2BcMwX1MPV6ZHP4tUT9uq6"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4sj6D0zlMOl25nprDJBiU9"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4sj6D0zlMOl25nprDJBiU9",
+                    "id": "4sj6D0zlMOl25nprDJBiU9",
+                    "name": "Andy Williams",
+                    "type": "artist",
+                    "uri": "spotify:artist:4sj6D0zlMOl25nprDJBiU9"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 151000,
+            "episode": false,
+            "explicit": false,
+            "id": "1IcR6RlgvDczfvoWJSSY2A",
+            "name": "It's the Most Wonderful Time of the Year",
+            "popularity": 69,
+            "preview_url": "https://p.scdn.co/mp3-preview/275c9394f2dce03245d4b6861eec4a40036ae82c?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 4,
+            "uri": "spotify:track:1IcR6RlgvDczfvoWJSSY2A"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/5cj0lLjcoR7YOSnhnX0Po5",
+                    "id": "5cj0lLjcoR7YOSnhnX0Po5",
+                    "name": "Doja Cat",
+                    "type": "artist",
+                    "uri": "spotify:artist:5cj0lLjcoR7YOSnhnX0Po5"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 210560,
+            "episode": false,
+            "explicit": true,
+            "id": "3Vi5XqYrmQgOYBajMWSvCi",
+            "name": "Need to Know",
+            "popularity": 93,
+            "preview_url": "https://p.scdn.co/mp3-preview/ed198c528573d97b1ef0c730af1da4f875fc04a4?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 5,
+            "uri": "spotify:track:3Vi5XqYrmQgOYBajMWSvCi"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/5cj0lLjcoR7YOSnhnX0Po5",
+                    "id": "5cj0lLjcoR7YOSnhnX0Po5",
+                    "name": "Doja Cat",
+                    "type": "artist",
+                    "uri": "spotify:artist:5cj0lLjcoR7YOSnhnX0Po5"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/7tYKF4w9nC0nq9CsPZTHyP",
+                    "id": "7tYKF4w9nC0nq9CsPZTHyP",
+                    "name": "SZA",
+                    "type": "artist",
+                    "uri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 208666,
+            "episode": false,
+            "explicit": true,
+            "id": "3DarAbFujv6eYNliUTyqtz",
+            "name": "Kiss Me More (feat. SZA)",
+            "popularity": 86,
+            "preview_url": "https://p.scdn.co/mp3-preview/43a9157b0d8e28bfbade57804a06344894336755?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 14,
+            "uri": "spotify:track:3DarAbFujv6eYNliUTyqtz"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4dpARuHxo51G3z768sgnrY"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4dpARuHxo51G3z768sgnrY",
+                    "id": "4dpARuHxo51G3z768sgnrY",
+                    "name": "Adele",
+                    "type": "artist",
+                    "uri": "spotify:artist:4dpARuHxo51G3z768sgnrY"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 225148,
+            "episode": false,
+            "explicit": false,
+            "id": "3Kkjo3cT83cw09VJyrLNwX",
+            "name": "Oh My God",
+            "popularity": 92,
+            "preview_url": "https://p.scdn.co/mp3-preview/c37959aa69d5ff67815e8748451b32b6c81d84a8?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 5,
+            "uri": "spotify:track:3Kkjo3cT83cw09VJyrLNwX"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4",
+                    "id": "3TVXtAsR1Inumwj472S9r4",
+                    "name": "Drake",
+                    "type": "artist",
+                    "uri": "spotify:artist:3TVXtAsR1Inumwj472S9r4"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1RyvyyTE3xzB2ZywiAwp0i"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1RyvyyTE3xzB2ZywiAwp0i",
+                    "id": "1RyvyyTE3xzB2ZywiAwp0i",
+                    "name": "Future",
+                    "type": "artist",
+                    "uri": "spotify:artist:1RyvyyTE3xzB2ZywiAwp0i"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/50co4Is1HCEo8bhOyUWKpn"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/50co4Is1HCEo8bhOyUWKpn",
+                    "id": "50co4Is1HCEo8bhOyUWKpn",
+                    "name": "Young Thug",
+                    "type": "artist",
+                    "uri": "spotify:artist:50co4Is1HCEo8bhOyUWKpn"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 257604,
+            "episode": false,
+            "explicit": true,
+            "id": "0k1WUmIRnG3xU6fvvDVfRG",
+            "name": "Way 2 Sexy (with Future & Young Thug)",
+            "popularity": 91,
+            "preview_url": null,
+            "track": true,
+            "track_number": 7,
+            "uri": "spotify:track:0k1WUmIRnG3xU6fvvDVfRG"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5SXuuuRpukkTvsLuUknva1"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/5SXuuuRpukkTvsLuUknva1",
+                    "id": "5SXuuuRpukkTvsLuUknva1",
+                    "name": "Baby Keem",
+                    "type": "artist",
+                    "uri": "spotify:artist:5SXuuuRpukkTvsLuUknva1"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 252262,
+            "episode": false,
+            "explicit": true,
+            "id": "3QFInJAm9eyaho5vBzxInN",
+            "name": "family ties (with Kendrick Lamar)",
+            "popularity": 79,
+            "preview_url": "https://p.scdn.co/mp3-preview/41f24d799e9304d1f7e8d5e11c3ebe6cfc169b26?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 10,
+            "uri": "spotify:track:3QFInJAm9eyaho5vBzxInN"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6ZjFtWeHP9XN7FeKSUe80S"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6ZjFtWeHP9XN7FeKSUe80S",
+                    "id": "6ZjFtWeHP9XN7FeKSUe80S",
+                    "name": "Bing Crosby",
+                    "type": "artist",
+                    "uri": "spotify:artist:6ZjFtWeHP9XN7FeKSUe80S"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/69UfPJgUmFFAVT740qGVZi"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/69UfPJgUmFFAVT740qGVZi",
+                    "id": "69UfPJgUmFFAVT740qGVZi",
+                    "name": "Ken Darby Singers",
+                    "type": "artist",
+                    "uri": "spotify:artist:69UfPJgUmFFAVT740qGVZi"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/735L650pvygCZZlPMyHqsN"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/735L650pvygCZZlPMyHqsN",
+                    "id": "735L650pvygCZZlPMyHqsN",
+                    "name": "John Scott Trotter & His Orchestra",
+                    "type": "artist",
+                    "uri": "spotify:artist:735L650pvygCZZlPMyHqsN"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 177480,
+            "episode": false,
+            "explicit": false,
+            "id": "4so0Wek9Ig1p6CRCHuINwW",
+            "name": "White Christmas",
+            "popularity": 80,
+            "preview_url": null,
+            "track": true,
+            "track_number": 11,
+            "uri": "spotify:track:4so0Wek9Ig1p6CRCHuINwW"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/53XhwfbYqKCa1cC15pYq2q",
+                    "id": "53XhwfbYqKCa1cC15pYq2q",
+                    "name": "Imagine Dragons",
+                    "type": "artist",
+                    "uri": "spotify:artist:53XhwfbYqKCa1cC15pYq2q"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6U3ybJ9UHNKEdsH7ktGBZ7"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6U3ybJ9UHNKEdsH7ktGBZ7",
+                    "id": "6U3ybJ9UHNKEdsH7ktGBZ7",
+                    "name": "JID",
+                    "type": "artist",
+                    "uri": "spotify:artist:6U3ybJ9UHNKEdsH7ktGBZ7"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/57nPqD7z62gDdq37US9XJR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/57nPqD7z62gDdq37US9XJR",
+                    "id": "57nPqD7z62gDdq37US9XJR",
+                    "name": "Arcane",
+                    "type": "artist",
+                    "uri": "spotify:artist:57nPqD7z62gDdq37US9XJR"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/47mIJdHORyRerp4os813jD"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/47mIJdHORyRerp4os813jD",
+                    "id": "47mIJdHORyRerp4os813jD",
+                    "name": "League of Legends",
+                    "type": "artist",
+                    "uri": "spotify:artist:47mIJdHORyRerp4os813jD"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 173381,
+            "episode": false,
+            "explicit": false,
+            "id": "1r9xUipOqoNwggBpENDsvJ",
+            "name": "Enemy (with JID) - from the series Arcane League of Legends",
+            "popularity": 94,
+            "preview_url": null,
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:1r9xUipOqoNwggBpENDsvJ"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7v4imS0moSyGdXyLgVTIV7"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/7v4imS0moSyGdXyLgVTIV7",
+                    "id": "7v4imS0moSyGdXyLgVTIV7",
+                    "name": "Nat King Cole",
+                    "type": "artist",
+                    "uri": "spotify:artist:7v4imS0moSyGdXyLgVTIV7"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 192160,
+            "episode": false,
+            "explicit": false,
+            "id": "4PS1e8f2LvuTFgUs1Cn3ON",
+            "name": "The Christmas Song (Merry Christmas To You)",
+            "popularity": 83,
+            "preview_url": null,
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:4PS1e8f2LvuTFgUs1Cn3ON"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5H6xmHXjsq98NLbEjuE29f"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/5H6xmHXjsq98NLbEjuE29f",
+                    "id": "5H6xmHXjsq98NLbEjuE29f",
+                    "name": "NEIKED",
+                    "type": "artist",
+                    "uri": "spotify:artist:5H6xmHXjsq98NLbEjuE29f"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1BEUkE2CSUgHTLSBMZdnFB"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1BEUkE2CSUgHTLSBMZdnFB",
+                    "id": "1BEUkE2CSUgHTLSBMZdnFB",
+                    "name": "Mae Muller",
+                    "type": "artist",
+                    "uri": "spotify:artist:1BEUkE2CSUgHTLSBMZdnFB"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6AgTAQt8XS6jRWi4sX7w49"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6AgTAQt8XS6jRWi4sX7w49",
+                    "id": "6AgTAQt8XS6jRWi4sX7w49",
+                    "name": "Polo G",
+                    "type": "artist",
+                    "uri": "spotify:artist:6AgTAQt8XS6jRWi4sX7w49"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 160656,
+            "episode": false,
+            "explicit": false,
+            "id": "6f5ExP43esnvdKPddwKXJH",
+            "name": "Better Days (NEIKED x Mae Muller x Polo G)",
+            "popularity": 91,
+            "preview_url": null,
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:6f5ExP43esnvdKPddwKXJH"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/64H8UqGLbJFHwKtGxiV8OP"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/64H8UqGLbJFHwKtGxiV8OP",
+                    "id": "64H8UqGLbJFHwKtGxiV8OP",
+                    "name": "THE ANXIETY",
+                    "type": "artist",
+                    "uri": "spotify:artist:64H8UqGLbJFHwKtGxiV8OP"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3rWZHrfrsPBxVy692yAIxF"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3rWZHrfrsPBxVy692yAIxF",
+                    "id": "3rWZHrfrsPBxVy692yAIxF",
+                    "name": "WILLOW",
+                    "type": "artist",
+                    "uri": "spotify:artist:3rWZHrfrsPBxVy692yAIxF"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xoxekeb8jUVHKJB7m6bfg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xoxekeb8jUVHKJB7m6bfg",
+                    "id": "1xoxekeb8jUVHKJB7m6bfg",
+                    "name": "Tyler Cole",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xoxekeb8jUVHKJB7m6bfg"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 162680,
+            "episode": false,
+            "explicit": true,
+            "id": "07MDkzWARZaLEdKxo6yArG",
+            "name": "Meet Me At Our Spot",
+            "popularity": 92,
+            "preview_url": null,
+            "track": true,
+            "track_number": 8,
+            "uri": "spotify:track:07MDkzWARZaLEdKxo6yArG"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1GxkXlMwML1oSg5eLPiAz3"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1GxkXlMwML1oSg5eLPiAz3",
+                    "id": "1GxkXlMwML1oSg5eLPiAz3",
+                    "name": "Michael Bubl\u00e9",
+                    "type": "artist",
+                    "uri": "spotify:artist:1GxkXlMwML1oSg5eLPiAz3"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 206639,
+            "episode": false,
+            "explicit": false,
+            "id": "0lLdorYw7lVrJydTINhWdI",
+            "name": "It's Beginning to Look a Lot like Christmas",
+            "popularity": 74,
+            "preview_url": "https://p.scdn.co/mp3-preview/798a8bc5a7a95ccad75648a63bc50aa755dc2289?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:0lLdorYw7lVrJydTINhWdI"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3PhoLpVuITZKcymswpck5b"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3PhoLpVuITZKcymswpck5b",
+                    "id": "3PhoLpVuITZKcymswpck5b",
+                    "name": "Elton John",
+                    "type": "artist",
+                    "uri": "spotify:artist:3PhoLpVuITZKcymswpck5b"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6M2wZ9GZgrQXHCFfjv46we",
+                    "id": "6M2wZ9GZgrQXHCFfjv46we",
+                    "name": "Dua Lipa",
+                    "type": "artist",
+                    "uri": "spotify:artist:6M2wZ9GZgrQXHCFfjv46we"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6n28c9qs9hNGriNa72b26u"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6n28c9qs9hNGriNa72b26u",
+                    "id": "6n28c9qs9hNGriNa72b26u",
+                    "name": "PNAU",
+                    "type": "artist",
+                    "uri": "spotify:artist:6n28c9qs9hNGriNa72b26u"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 202735,
+            "episode": false,
+            "explicit": false,
+            "id": "7rglLriMNBPAyuJOMGwi39",
+            "name": "Cold Heart - PNAU Remix",
+            "popularity": 86,
+            "preview_url": null,
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:7rglLriMNBPAyuJOMGwi39"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6eUKZXaKkcviH0Ku9w2n3V",
+                    "id": "6eUKZXaKkcviH0Ku9w2n3V",
+                    "name": "Ed Sheeran",
+                    "type": "artist",
+                    "uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 207853,
+            "episode": false,
+            "explicit": false,
+            "id": "50nfwKoDiSYg8zOCREWAm5",
+            "name": "Shivers",
+            "popularity": 94,
+            "preview_url": "https://p.scdn.co/mp3-preview/bb9f413d6876e265d09a5d2d93345c64f8ac4de8?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 2,
+            "uri": "spotify:track:50nfwKoDiSYg8zOCREWAm5"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7jVv8c5Fj3E9VhNjxT4snq"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/7jVv8c5Fj3E9VhNjxT4snq",
+                    "id": "7jVv8c5Fj3E9VhNjxT4snq",
+                    "name": "Lil Nas X",
+                    "type": "artist",
+                    "uri": "spotify:artist:7jVv8c5Fj3E9VhNjxT4snq"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 137704,
+            "episode": false,
+            "explicit": true,
+            "id": "1SC5rEoYDGUK4NfG82494W",
+            "name": "MONTERO (Call Me By Your Name)",
+            "popularity": 90,
+            "preview_url": "https://p.scdn.co/mp3-preview/a6e05149543aaa36a3a87ca26665fbd9043f85fd?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:1SC5rEoYDGUK4NfG82494W"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
+                    "type": "artist",
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 298899,
+            "episode": false,
+            "explicit": true,
+            "id": "4RVwu0g32PAqgUiJoXsdF8",
+            "name": "Happier Than Ever",
+            "popularity": 93,
+            "preview_url": null,
+            "track": true,
+            "track_number": 15,
+            "uri": "spotify:track:4RVwu0g32PAqgUiJoXsdF8"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5lpH0xAS4fVfLkACg9DAuM"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/5lpH0xAS4fVfLkACg9DAuM",
+                    "id": "5lpH0xAS4fVfLkACg9DAuM",
+                    "name": "Wham!",
+                    "type": "artist",
+                    "uri": "spotify:artist:5lpH0xAS4fVfLkACg9DAuM"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 262960,
+            "episode": false,
+            "explicit": false,
+            "id": "2FRnf9qhLbvw8fu4IBXx78",
+            "name": "Last Christmas",
+            "popularity": 86,
+            "preview_url": "https://p.scdn.co/mp3-preview/ad0a6b7428ef900b169449b24c335d885dc029d0?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:2FRnf9qhLbvw8fu4IBXx78"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/5cj0lLjcoR7YOSnhnX0Po5",
+                    "id": "5cj0lLjcoR7YOSnhnX0Po5",
+                    "name": "Doja Cat",
+                    "type": "artist",
+                    "uri": "spotify:artist:5cj0lLjcoR7YOSnhnX0Po5"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 172626,
+            "episode": false,
+            "explicit": true,
+            "id": "6Uj1ctrBOjOas8xZXGqKk4",
+            "name": "Woman",
+            "popularity": 95,
+            "preview_url": "https://p.scdn.co/mp3-preview/5f583b2ce5aff7762b6611a85907d55349a62db1?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:6Uj1ctrBOjOas8xZXGqKk4"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+                    "id": "246dkjvS1zLTtiykXe5h60",
+                    "name": "Post Malone",
+                    "type": "artist",
+                    "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1Xyo4u8uXC1ZmMpatF05PJ",
+                    "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+                    "name": "The Weeknd",
+                    "type": "artist",
+                    "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 193506,
+            "episode": false,
+            "explicit": true,
+            "id": "00Blm7zeNqgYLPtW6zg8cj",
+            "name": "One Right Now (with The Weeknd)",
+            "popularity": 92,
+            "preview_url": null,
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:00Blm7zeNqgYLPtW6zg8cj"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1McMsnEElThX1knmY4oliG",
+                    "id": "1McMsnEElThX1knmY4oliG",
+                    "name": "Olivia Rodrigo",
+                    "type": "artist",
+                    "uri": "spotify:artist:1McMsnEElThX1knmY4oliG"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 229226,
+            "episode": false,
+            "explicit": false,
+            "id": "5CZ40GBx1sQ9agT82CLQCT",
+            "name": "traitor",
+            "popularity": 92,
+            "preview_url": null,
+            "track": true,
+            "track_number": 2,
+            "uri": "spotify:track:5CZ40GBx1sQ9agT82CLQCT"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/57vWImR43h4CaDao012Ofp"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/57vWImR43h4CaDao012Ofp",
+                    "id": "57vWImR43h4CaDao012Ofp",
+                    "name": "Steve Lacy",
+                    "type": "artist",
+                    "uri": "spotify:artist:57vWImR43h4CaDao012Ofp"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 173104,
+            "episode": false,
+            "explicit": false,
+            "id": "37y7iDayfwm3WXn5BiAoRk",
+            "name": "Dark Red",
+            "popularity": 89,
+            "preview_url": "https://p.scdn.co/mp3-preview/8e9689ea710036af15eecca65f7ffe2720d2edab?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:37y7iDayfwm3WXn5BiAoRk"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7K78lVZ8XzkjfRSI7570FF"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/7K78lVZ8XzkjfRSI7570FF",
+                    "id": "7K78lVZ8XzkjfRSI7570FF",
+                    "name": "Jos\u00e9 Feliciano",
+                    "type": "artist",
+                    "uri": "spotify:artist:7K78lVZ8XzkjfRSI7570FF"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 182306,
+            "episode": false,
+            "explicit": false,
+            "id": "3qCeq0rWK67SoBDgFd2sId",
+            "name": "Feliz Navidad",
+            "popularity": 67,
+            "preview_url": "https://p.scdn.co/mp3-preview/8ddc0ad625048f7c5c0176ad4a3498e8d3a6051d?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 14,
+            "uri": "spotify:track:3qCeq0rWK67SoBDgFd2sId"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/699OTQXzgjhIYAHMy9RyPD",
+                    "id": "699OTQXzgjhIYAHMy9RyPD",
+                    "name": "Playboi Carti",
+                    "type": "artist",
+                    "uri": "spotify:artist:699OTQXzgjhIYAHMy9RyPD"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 193234,
+            "episode": false,
+            "explicit": true,
+            "id": "29TPjc8wxfz4XMn21O7VsZ",
+            "name": "Sky",
+            "popularity": 87,
+            "preview_url": null,
+            "track": true,
+            "track_number": 19,
+            "uri": "spotify:track:29TPjc8wxfz4XMn21O7VsZ"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1Mxqyy3pSjf8kZZL4QVxS0"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1Mxqyy3pSjf8kZZL4QVxS0",
+                    "id": "1Mxqyy3pSjf8kZZL4QVxS0",
+                    "name": "Frank Sinatra",
+                    "type": "artist",
+                    "uri": "spotify:artist:1Mxqyy3pSjf8kZZL4QVxS0"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0JXiS2FrAg3wQYJHcmZdrc"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0JXiS2FrAg3wQYJHcmZdrc",
+                    "id": "0JXiS2FrAg3wQYJHcmZdrc",
+                    "name": "B. Swanson Quartet",
+                    "type": "artist",
+                    "uri": "spotify:artist:0JXiS2FrAg3wQYJHcmZdrc"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 155453,
+            "episode": false,
+            "explicit": false,
+            "id": "4kKdvXD0ez7jp1296JmAts",
+            "name": "Let It Snow! Let It Snow! Let It Snow! (with The B. Swanson Quartet)",
+            "popularity": 83,
+            "preview_url": "https://p.scdn.co/mp3-preview/24967430de70def58c96aff0e4a4a0449bcd1127?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 10,
+            "uri": "spotify:track:4kKdvXD0ez7jp1296JmAts"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1McMsnEElThX1knmY4oliG",
+                    "id": "1McMsnEElThX1knmY4oliG",
+                    "name": "Olivia Rodrigo",
+                    "type": "artist",
+                    "uri": "spotify:artist:1McMsnEElThX1knmY4oliG"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 242013,
+            "episode": false,
+            "explicit": true,
+            "id": "5wANPM4fQCJwkGd4rN57mH",
+            "name": "drivers license",
+            "popularity": 90,
+            "preview_url": null,
+            "track": true,
+            "track_number": 3,
+            "uri": "spotify:track:5wANPM4fQCJwkGd4rN57mH"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7CyeXFnOrfC1N6z4naIpgo"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/7CyeXFnOrfC1N6z4naIpgo",
+                    "id": "7CyeXFnOrfC1N6z4naIpgo",
+                    "name": "The Ronettes",
+                    "type": "artist",
+                    "uri": "spotify:artist:7CyeXFnOrfC1N6z4naIpgo"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 181266,
+            "episode": false,
+            "explicit": false,
+            "id": "7fUYUcWy853HS8YJn0b3Sr",
+            "name": "Sleigh Ride",
+            "popularity": 71,
+            "preview_url": "https://p.scdn.co/mp3-preview/af8102ee02140590690efefd229d2182e5216ec5?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:7fUYUcWy853HS8YJn0b3Sr"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6eUKZXaKkcviH0Ku9w2n3V",
+                    "id": "6eUKZXaKkcviH0Ku9w2n3V",
+                    "name": "Ed Sheeran",
+                    "type": "artist",
+                    "uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 230746,
+            "episode": false,
+            "explicit": false,
+            "id": "3rmo8F54jFF8OgYsqTxm5d",
+            "name": "Bad Habits",
+            "popularity": 91,
+            "preview_url": "https://p.scdn.co/mp3-preview/e0440ae1a5a38687fb54170742e9b83ebd33ddf3?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 4,
+            "uri": "spotify:track:3rmo8F54jFF8OgYsqTxm5d"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6AgTAQt8XS6jRWi4sX7w49"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6AgTAQt8XS6jRWi4sX7w49",
+                    "id": "6AgTAQt8XS6jRWi4sX7w49",
+                    "name": "Polo G",
+                    "type": "artist",
+                    "uri": "spotify:artist:6AgTAQt8XS6jRWi4sX7w49"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 165925,
+            "episode": false,
+            "explicit": true,
+            "id": "18vXApRmJSgQ6wG2ll9AOg",
+            "name": "RAPSTAR",
+            "popularity": 80,
+            "preview_url": "https://p.scdn.co/mp3-preview/ade054b0d605e53c388d383b59b20248aafb1636?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 2,
+            "uri": "spotify:track:18vXApRmJSgQ6wG2ll9AOg"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 204093,
+            "episode": false,
+            "explicit": false,
+            "id": "0lizgQ7Qw35od7CYaoMBZb",
+            "name": "Santa Tell Me",
+            "popularity": 87,
+            "preview_url": null,
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:0lizgQ7Qw35od7CYaoMBZb"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/77SW9BnxLY8rJ0RciFqkHh"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/77SW9BnxLY8rJ0RciFqkHh",
+                    "id": "77SW9BnxLY8rJ0RciFqkHh",
+                    "name": "The Neighbourhood",
+                    "type": "artist",
+                    "uri": "spotify:artist:77SW9BnxLY8rJ0RciFqkHh"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 240400,
+            "episode": false,
+            "explicit": false,
+            "id": "2QjOHCTQ1Jl3zawyYOpxh6",
+            "name": "Sweater Weather",
+            "popularity": 90,
+            "preview_url": "https://p.scdn.co/mp3-preview/b189d26b94a514fa75e47775b4ce05421c67580f?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 4,
+            "uri": "spotify:track:2QjOHCTQ1Jl3zawyYOpxh6"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4MCBfE4596Uoi2O4DtmEMz"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4MCBfE4596Uoi2O4DtmEMz",
+                    "id": "4MCBfE4596Uoi2O4DtmEMz",
+                    "name": "Juice WRLD",
+                    "type": "artist",
+                    "uri": "spotify:artist:4MCBfE4596Uoi2O4DtmEMz"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 231010,
+            "episode": false,
+            "explicit": true,
+            "id": "7qM1BWAsZMTYh4BcYLb0uQ",
+            "name": "Already Dead",
+            "popularity": 88,
+            "preview_url": null,
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:7qM1BWAsZMTYh4BcYLb0uQ"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Njy6yR9LykNKYg9yE23QN"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Njy6yR9LykNKYg9yE23QN",
+                    "id": "0Njy6yR9LykNKYg9yE23QN",
+                    "name": "Nardo Wick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Njy6yR9LykNKYg9yE23QN"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/5QdEbQJ3ylBnc3gsIASAT5"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/5QdEbQJ3ylBnc3gsIASAT5",
+                    "id": "5QdEbQJ3ylBnc3gsIASAT5",
+                    "name": "G Herbo",
+                    "type": "artist",
+                    "uri": "spotify:artist:5QdEbQJ3ylBnc3gsIASAT5"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3hcs9uc56yIGFCSy9leWe7"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3hcs9uc56yIGFCSy9leWe7",
+                    "id": "3hcs9uc56yIGFCSy9leWe7",
+                    "name": "Lil Durk",
+                    "type": "artist",
+                    "uri": "spotify:artist:3hcs9uc56yIGFCSy9leWe7"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1URnnhqYAYcrqrcwql10ft"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1URnnhqYAYcrqrcwql10ft",
+                    "id": "1URnnhqYAYcrqrcwql10ft",
+                    "name": "21 Savage",
+                    "type": "artist",
+                    "uri": "spotify:artist:1URnnhqYAYcrqrcwql10ft"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 279853,
+            "episode": false,
+            "explicit": true,
+            "id": "4yNoUQkYf1QF8iYlEzNynH",
+            "name": "Who Want Smoke?? (feat. G Herbo, Lil Durk & 21 Savage)",
+            "popularity": 84,
+            "preview_url": "https://p.scdn.co/mp3-preview/84ecde3a52998ceb70f48750740bdc18665b32f1?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:4yNoUQkYf1QF8iYlEzNynH"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0MHgLfmQdutffmvWe5XBTN"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0MHgLfmQdutffmvWe5XBTN",
+                    "id": "0MHgLfmQdutffmvWe5XBTN",
+                    "name": "Burl Ives",
+                    "type": "artist",
+                    "uri": "spotify:artist:0MHgLfmQdutffmvWe5XBTN"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 135533,
+            "episode": false,
+            "explicit": false,
+            "id": "77khP2fIVhSW23NwxrRluh",
+            "name": "A Holly Jolly Christmas - Single Version",
+            "popularity": 78,
+            "preview_url": null,
+            "track": true,
+            "track_number": 1,
+            "uri": "spotify:track:77khP2fIVhSW23NwxrRluh"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6M2wZ9GZgrQXHCFfjv46we",
+                    "id": "6M2wZ9GZgrQXHCFfjv46we",
+                    "name": "Dua Lipa",
+                    "type": "artist",
+                    "uri": "spotify:artist:6M2wZ9GZgrQXHCFfjv46we"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4r63FhuTkUYltbVAg5TQnk"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4r63FhuTkUYltbVAg5TQnk",
+                    "id": "4r63FhuTkUYltbVAg5TQnk",
+                    "name": "DaBaby",
+                    "type": "artist",
+                    "uri": "spotify:artist:4r63FhuTkUYltbVAg5TQnk"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 203064,
+            "episode": false,
+            "explicit": false,
+            "id": "5nujrmhLynf4yMoMtj8AQF",
+            "name": "Levitating (feat. DaBaby)",
+            "popularity": 87,
+            "preview_url": "https://p.scdn.co/mp3-preview/a690735072e85bebf1140d542365751629ae3d74?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 12,
+            "uri": "spotify:track:5nujrmhLynf4yMoMtj8AQF"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4dpARuHxo51G3z768sgnrY"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4dpARuHxo51G3z768sgnrY",
+                    "id": "4dpARuHxo51G3z768sgnrY",
+                    "name": "Adele",
+                    "type": "artist",
+                    "uri": "spotify:artist:4dpARuHxo51G3z768sgnrY"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 389107,
+            "episode": false,
+            "explicit": false,
+            "id": "2DuPBbS5mIldXnh7Wum8Cy",
+            "name": "My Little Love",
+            "popularity": 88,
+            "preview_url": "https://p.scdn.co/mp3-preview/18a83c77cf2f55a1de1517a7c1a9f9a3b63201ed?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 3,
+            "uri": "spotify:track:2DuPBbS5mIldXnh7Wum8Cy"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6EPlBSH2RSiettczlz7ihV"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/6EPlBSH2RSiettczlz7ihV",
+                    "id": "6EPlBSH2RSiettczlz7ihV",
+                    "name": "Sleepy Hallow",
+                    "type": "artist",
+                    "uri": "spotify:artist:6EPlBSH2RSiettczlz7ihV"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 123986,
+            "episode": false,
+            "explicit": true,
+            "id": "4XvcHTUfIlWfyJTRG0aqlo",
+            "name": "2055",
+            "popularity": 87,
+            "preview_url": "https://p.scdn.co/mp3-preview/698419a7c7bf4d10dfb0d2583af18c8197587558?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 4,
+            "uri": "spotify:track:4XvcHTUfIlWfyJTRG0aqlo"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4dpARuHxo51G3z768sgnrY"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4dpARuHxo51G3z768sgnrY",
+                    "id": "4dpARuHxo51G3z768sgnrY",
+                    "name": "Adele",
+                    "type": "artist",
+                    "uri": "spotify:artist:4dpARuHxo51G3z768sgnrY"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 210384,
+            "episode": false,
+            "explicit": false,
+            "id": "6w8ZPYdnGajyfPddTWdthN",
+            "name": "Can I Get It",
+            "popularity": 89,
+            "preview_url": "https://p.scdn.co/mp3-preview/fcbda57102f62fbab2f827dd4719e038ddfd3e61?cid=cd0e3cb02aee4de099b024ac33ba782e",
+            "track": true,
+            "track_number": 6,
+            "uri": "spotify:track:6w8ZPYdnGajyfPddTWdthN"
+        }
+    },
+    {
+        "track": {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1McMsnEElThX1knmY4oliG",
+                    "id": "1McMsnEElThX1knmY4oliG",
+                    "name": "Olivia Rodrigo",
+                    "type": "artist",
+                    "uri": "spotify:artist:1McMsnEElThX1knmY4oliG"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 215506,
+            "episode": false,
+            "explicit": true,
+            "id": "6HU7h9RYOaPRFeh0R3UeAr",
+            "name": "deja vu",
+            "popularity": 89,
+            "preview_url": null,
+            "track": true,
+            "track_number": 5,
+            "uri": "spotify:track:6HU7h9RYOaPRFeh0R3UeAr"
+        }
+    }
+]

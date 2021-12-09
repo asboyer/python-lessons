@@ -1,0 +1,256 @@
+{
+    "artists": "Kanye West",
+    "copyrights": "\u00a9 2021 Getting Out Our Dreams II, LLC Distributed By Def Jam Recordings, A Division of UMG Recordings, Inc., \u2117 2021 Getting Out Our Dreams II, LLC Distributed By Def Jam Recordings, A Division of UMG Recordings, Inc.",
+    "label": "Rock The World/IDJ/Kanye LP7",
+    "name": "Donda",
+    "popularity": 93,
+    "release_date": "2021-08-29",
+    "total_tracks": 27,
+    "uri": "spotify:album:5CnpZV3q5BcESefcB3WJmz",
+    "image": "https://i.scdn.co/image/ab67616d0000b273cad190f1a73c024e5a40dddd",
+    "tracks": [
+        {
+            "artists": "Kanye West",
+            "duration_ms": 52061,
+            "explicit": false,
+            "name": "Donda Chant",
+            "preview_url": null,
+            "track_number": 1,
+            "uri": "spotify:track:7eSSmgq26BXr7xay3WKjfi"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 297000,
+            "explicit": false,
+            "name": "Jail",
+            "preview_url": null,
+            "track_number": 2,
+            "uri": "spotify:track:6d8HN8MqqbqrEUI2bvx0aG"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 333461,
+            "explicit": false,
+            "name": "God Breathed",
+            "preview_url": null,
+            "track_number": 3,
+            "uri": "spotify:track:5JaSg0AYyAMMLjyGGDrrCm"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 339249,
+            "explicit": false,
+            "name": "Off The Grid",
+            "preview_url": null,
+            "track_number": 4,
+            "uri": "spotify:track:6LNoArVBBVZzUTUiAX2aKO"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 243187,
+            "explicit": false,
+            "name": "Hurricane",
+            "preview_url": null,
+            "track_number": 5,
+            "uri": "spotify:track:6Hfu9sc7jvv6coyy2LlzBF"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 226652,
+            "explicit": false,
+            "name": "Praise God",
+            "preview_url": null,
+            "track_number": 6,
+            "uri": "spotify:track:0WSEq9Ko4kFPt8yo3ICd6T"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 195170,
+            "explicit": false,
+            "name": "Jonah",
+            "preview_url": null,
+            "track_number": 7,
+            "uri": "spotify:track:35acXjupfWHgtchiS6yAjC"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 204629,
+            "explicit": false,
+            "name": "Ok Ok",
+            "preview_url": null,
+            "track_number": 8,
+            "uri": "spotify:track:5LuXsO34x6KVlL8OWsxRqk"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 147668,
+            "explicit": false,
+            "name": "Junya",
+            "preview_url": null,
+            "track_number": 9,
+            "uri": "spotify:track:1jgcODbfAL3tV7tikF6n1j"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 242400,
+            "explicit": false,
+            "name": "Believe What I Say",
+            "preview_url": null,
+            "track_number": 10,
+            "uri": "spotify:track:0JuSGEldfovcc8IS9va1wa"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 197898,
+            "explicit": false,
+            "name": "24",
+            "preview_url": null,
+            "track_number": 11,
+            "uri": "spotify:track:68RhNM8ehkarnEKnCkqlsp"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 198613,
+            "explicit": false,
+            "name": "Remote Control",
+            "preview_url": null,
+            "track_number": 12,
+            "uri": "spotify:track:45N9i9QraLWD6GW7xBqxnx"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 156091,
+            "explicit": false,
+            "name": "Moon",
+            "preview_url": null,
+            "track_number": 13,
+            "uri": "spotify:track:7CC6UbCs4iGsePSzFxYxNn"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 145301,
+            "explicit": false,
+            "name": "Heaven and Hell",
+            "preview_url": null,
+            "track_number": 14,
+            "uri": "spotify:track:2Y40huo5ewaKYxsFintYtF"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 128313,
+            "explicit": false,
+            "name": "Donda",
+            "preview_url": null,
+            "track_number": 15,
+            "uri": "spotify:track:4jkwu5KQbXXrbAZzVmt5fE"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 221250,
+            "explicit": false,
+            "name": "Keep My Spirit Alive",
+            "preview_url": null,
+            "track_number": 16,
+            "uri": "spotify:track:7EagormFign5ag6f16ua3I"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 538536,
+            "explicit": false,
+            "name": "Jesus Lord",
+            "preview_url": null,
+            "track_number": 17,
+            "uri": "spotify:track:1LwdWIbfuqlOo8vlHxkyna"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 183296,
+            "explicit": false,
+            "name": "New Again",
+            "preview_url": null,
+            "track_number": 18,
+            "uri": "spotify:track:75QktuEju5vz9lyXiLaUao"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 104218,
+            "explicit": false,
+            "name": "Tell The Vision",
+            "preview_url": null,
+            "track_number": 19,
+            "uri": "spotify:track:4OfnDoi5VOPsXtwnofq6aL"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 162108,
+            "explicit": false,
+            "name": "Lord I Need You",
+            "preview_url": null,
+            "track_number": 20,
+            "uri": "spotify:track:5Iq6pIudd4KfuxZqf8872b"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 358621,
+            "explicit": false,
+            "name": "Pure Souls",
+            "preview_url": null,
+            "track_number": 21,
+            "uri": "spotify:track:5aqUqSq0SqGBAqEn27PEzc"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 310393,
+            "explicit": false,
+            "name": "Come to Life",
+            "preview_url": null,
+            "track_number": 22,
+            "uri": "spotify:track:5xvXeuxISyXJDRbZZf4uzd"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 178061,
+            "explicit": false,
+            "name": "No Child Left Behind",
+            "preview_url": null,
+            "track_number": 23,
+            "uri": "spotify:track:3hd6zLhnTlbJ8PupYt3cAI"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 297000,
+            "explicit": false,
+            "name": "Jail pt 2",
+            "preview_url": null,
+            "track_number": 24,
+            "uri": "spotify:track:2H8jWuNmluerTEsuh8Gu6y"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 204629,
+            "explicit": false,
+            "name": "Ok Ok pt 2",
+            "preview_url": null,
+            "track_number": 25,
+            "uri": "spotify:track:5ad5uryyzVWs95bK3myGkw"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 182635,
+            "explicit": false,
+            "name": "Junya pt 2",
+            "preview_url": null,
+            "track_number": 26,
+            "uri": "spotify:track:2auYgZ1GcTkWj2bOaE2Wwm"
+        },
+        {
+            "artists": "Kanye West",
+            "duration_ms": 690731,
+            "explicit": false,
+            "name": "Jesus Lord pt 2",
+            "preview_url": null,
+            "track_number": 27,
+            "uri": "spotify:track:360VkSTITvF55weIKoaNTw"
+        }
+    ]
+}
