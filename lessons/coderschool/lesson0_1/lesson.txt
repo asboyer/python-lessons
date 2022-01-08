@@ -1,0 +1,37 @@
+Lesson 0.1: Turtle Graphics (using trinket.io)
+Basic introduction of Python as a typed, command-line language
+Each line of code performs one task
+Use the “play” button to run the code and observe the graphic results
+Find the line of code that draws the BLUE circle and make it RED instead (line 13)
+Increase the size of the RED circle to be twice as big (also line 13)
+Explain the concept of a “FUNCTION”, which is a re-usable block of code (e.g., use “robot” example); all functions begin with the word def
+Visually scan through the “shapes.py” tab to identify all of the shapes that are defined (circle, triangle, square and star)
+Go back to the “main.py” tab and change the yellow circle to a yellow star (or any other shape)
+Shrink the new yellow shape down to a smaller size
+Add a FOR loop to generate a row of those shapes in a stair-step configuration; allow the students to select any number between 5 and 10 (e.g., 7):
+  for i in range(7):
+    draw_star(tommy, "yellow", 10, -25, 0)
+Observe that all of the stars are drawn at the same location
+CONCEPT:  Computers are very… obedient -- they will do EXACTLY what you tell them to do.
+Create a mathematical expression based on the loop index of i to calculate distinct x and y coordinates
+        draw_star(tommy, "yellow", 10, -25+i*25, 0+i*25)
+Increase the speed to maximum by changing the speed in line 9 from 7 to zero
+But they are all the same color, so create a LIST variable in line 10 with seven distinct colors:
+        colors = ["red","orange","yellow","green","blue","indigo","violet"] 
+Run the code, but observe that all of the shapes are still yellow.
+Change the function call to use each entry from the colors list, based on the index value of i
+        draw_star(tommy, colors[i], 10, -25+i*25, 0+i*25)
+Now make a two-dimensional matrix of shapes by introducing nested FOR loops (be sure to change the i to j for the Y-coordinate); be sure to follow the correct indentation :
+  for j in range(4):
+       for i in range(7):
+            draw_star(tommy, colors[i], 10, -25+i*25, 0+j*25)
+Now let’s create a totally new shape -- an octagon -- how many sides does an octagon have, and what shape can we clone as a starting point (square)
+Select the “shapes.py” tab and copy-and-paste lines 30-41 at the bottom of that page.  Be sure to include the initial def and remove any indentation from that line.
+Change the function name from draw_square to draw_octagon
+Describe how the computer needs to draw a square (draw, turn left 90-degrees, repeat 4 times)
+Find a FOR loop that draws 4 times and change it to be 8
+Describe how the angle will be different between a square and an octagon (90 degrees --> 45 degrees)
+Find where the code turns left 90 degrees and change it to be 45 degrees
+Go back to the “main.py” tab and run it -- note that nothing changed -- why is that???
+Change the draw_star to draw_octagon and run it again -- observe that it now works correctly.
+Experiment with different vertical and horizontal spacing, and move the origin to the left by changing the -25 to some more negative.

@@ -4,4 +4,3 @@ lines = f.readlines()
 for i in range(len(lines)):
     lines[i] = int(lines[i].strip())
 
-# part 1:
